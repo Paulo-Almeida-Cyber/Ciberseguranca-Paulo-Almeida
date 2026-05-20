@@ -263,8 +263,212 @@ Os fundamentos de cibersegurança mostram que a proteção digital começa por p
 
 Palavras-passe fortes, autenticação de dois fatores, atualizações regulares, antivírus ativo, cuidado com emails e ficheiros, navegação segura, utilização prudente de redes Wi-Fi públicas, VPN, cópias de segurança, proteção física dos dispositivos e formação contínua constituem uma base essencial.
 
+---
+
+# Conceitos fundamentais de Segurança da Informação
+
+Depois de compreender o conceito geral de cibersegurança, torna-se necessário aprofundar alguns conceitos fundamentais da segurança da informação. Estes conceitos ajudam a analisar melhor os riscos, a compreender a importância da proteção dos dados e a justificar as medidas de segurança aplicadas em sistemas, redes e organizações.
+
+A segurança da informação preocupa-se com a proteção da informação em qualquer formato, seja digital, físico ou verbal. A cibersegurança, por sua vez, centra-se sobretudo na proteção da informação, dos sistemas e das infraestruturas no contexto digital.
+
+Desta forma, a cibersegurança pode ser entendida como uma parte da segurança da informação, orientada para os riscos associados às tecnologias, às redes, às aplicações e aos dispositivos.
+
+Esta distinção é importante porque nem toda a informação sensível existe apenas em computadores. Um documento impresso, uma conversa, uma palavra-passe escrita num papel ou um acesso partilhado indevidamente também podem representar riscos de segurança.
+
 Estas medidas não eliminam todos os riscos, mas reduzem a probabilidade de ocorrência de incidentes e ajudam a limitar o seu impacto.
 
 A partir desta base, torna-se possível avançar para conceitos mais específicos da segurança da informação, como confidencialidade, integridade, disponibilidade, ameaça, vulnerabilidade, risco, superfície de ataque e defesa em profundidade.
 
+---
 
+# Conceitos fundamentais de Segurança da Informação
+
+Depois de compreender o conceito geral de cibersegurança, torna-se necessário aprofundar alguns conceitos fundamentais da segurança da informação. Estes conceitos ajudam a analisar melhor os riscos, a compreender a importância da proteção dos dados e a justificar as medidas de segurança aplicadas em sistemas, redes e organizações.
+
+A segurança da informação preocupa-se com a proteção da informação em qualquer formato, seja digital, físico ou verbal. A cibersegurança, por sua vez, centra-se sobretudo na proteção da informação, dos sistemas e das infraestruturas no contexto digital.
+
+Desta forma, a cibersegurança pode ser entendida como uma parte da segurança da informação, orientada para os riscos associados às tecnologias, às redes, às aplicações e aos dispositivos.
+
+Esta distinção é importante porque nem toda a informação sensível existe apenas em computadores. Um documento impresso, uma conversa, uma palavra-passe escrita num papel ou um acesso partilhado indevidamente também podem representar riscos de segurança.
+
+> **Nota:**  
+> **Segurança da Informação** é a área que procura proteger a informação contra acesso indevido, alteração, perda, destruição ou divulgação não autorizada.  
+> **Cibersegurança** é a aplicação desses princípios ao contexto digital, protegendo sistemas, redes, dispositivos, aplicações e dados.
+
+---
+
+## Tríade CIA: Confidencialidade, Integridade e Disponibilidade
+
+A segurança da informação assenta em três princípios fundamentais: **Confidencialidade**, **Integridade** e **Disponibilidade**. Estes três princípios são frequentemente conhecidos como **tríade CIA**, devido aos termos em inglês *Confidentiality*, *Integrity* e *Availability*.
+
+Esta tríade permite compreender os principais objetivos da proteção da informação. Sempre que se analisa um sistema, uma aplicação, uma rede ou um incidente, é possível avaliar de que forma estes três princípios podem ser afetados.
+
+---
+
+### Confidencialidade
+
+A confidencialidade procura garantir que a informação apenas é acedida por pessoas, sistemas ou entidades autorizadas.
+
+Este princípio está relacionado com a proteção contra acessos indevidos, exposição de dados, roubo de informação e divulgação não autorizada. Para garantir a confidencialidade, podem ser utilizadas medidas como palavras-passe fortes, autenticação de dois fatores, permissões de acesso, encriptação e políticas de segurança.
+
+Um exemplo simples de quebra de confidencialidade ocorre quando uma pessoa acede a dados pessoais, documentos internos ou credenciais sem ter autorização para isso.
+
+> **Nota:**  
+> **Acesso autorizado** significa que uma pessoa ou sistema tem permissão legítima para consultar ou utilizar determinada informação.  
+> **Dados sensíveis** são informações que exigem proteção especial, como dados pessoais, dados bancários, credenciais, documentos internos ou informação confidencial de uma organização.
+
+---
+
+### Integridade
+
+A integridade procura garantir que a informação se mantém correta, completa e sem alterações indevidas.
+
+Este princípio é importante porque os dados devem ser fiáveis. Mesmo que a informação esteja disponível e protegida contra acessos indevidos, deixa de ter valor se tiver sido alterada sem autorização, corrompida ou manipulada.
+
+A integridade pode ser protegida através de controlos de acesso, registos de alterações, validação de dados, cópias de segurança, assinaturas digitais e mecanismos que permitam detetar modificações não autorizadas.
+
+Um exemplo de quebra de integridade ocorre quando alguém altera o valor de uma transação, modifica um registo numa base de dados ou altera um ficheiro sem permissão.
+
+> **Nota:**  
+> **Corromper dados** significa tornar a informação incorreta, danificada ou inutilizável.  
+> **Assinatura digital** é um mecanismo que permite verificar a autenticidade e a integridade de um documento ou mensagem.
+
+---
+
+### Disponibilidade
+
+A disponibilidade procura garantir que sistemas, serviços e informação estão acessíveis quando são necessários.
+
+Este princípio está relacionado com continuidade de serviço, estabilidade, capacidade de resposta e recuperação em caso de falha. Um sistema seguro não deve apenas proteger dados; deve também permitir que utilizadores legítimos consigam aceder aos serviços de que necessitam.
+
+A disponibilidade pode ser afetada por falhas técnicas, avarias, ataques, erros humanos, cortes de energia, problemas de rede ou ausência de manutenção.
+
+Medidas como cópias de segurança, redundância, monitorização, atualizações, planos de recuperação e proteção contra ataques de negação de serviço ajudam a garantir maior disponibilidade.
+
+Um exemplo de quebra de disponibilidade ocorre quando um site, aplicação ou servidor deixa de estar acessível aos utilizadores legítimos.
+
+> **Nota:**  
+> **Redundância** significa ter recursos alternativos preparados para substituir outros em caso de falha.  
+> **Ataque de negação de serviço**, também conhecido como DoS ou DDoS, procura tornar um serviço indisponível, sobrecarregando-o ou impedindo o seu funcionamento normal.
+
+---
+
+## Relação entre os três princípios
+
+A confidencialidade, a integridade e a disponibilidade estão interligadas. Um incidente de segurança pode afetar apenas um destes princípios, mas também pode comprometer vários ao mesmo tempo.
+
+Por exemplo, um ataque de ransomware pode afetar:
+
+- a **confidencialidade**, se os dados forem roubados;
+- a **integridade**, se os ficheiros forem alterados ou cifrados;
+- a **disponibilidade**, se os utilizadores deixarem de conseguir aceder aos sistemas.
+
+Da mesma forma, uma má configuração de permissões pode permitir que utilizadores sem autorização consultem, alterem ou apaguem informação. Nesse caso, os três princípios podem ficar em risco.
+
+Compreender esta relação é essencial para analisar incidentes, avaliar riscos e escolher medidas de proteção adequadas.
+
+---
+
+## Ameaça, Vulnerabilidade e Risco
+
+Para compreender a segurança da informação, é também necessário distinguir três conceitos fundamentais: **ameaça**, **vulnerabilidade** e **risco**.
+
+Estes conceitos estão relacionados, mas não significam a mesma coisa. A sua distinção permite analisar melhor os problemas de segurança e perceber por que razão determinada situação pode representar perigo para um sistema ou organização.
+
+---
+
+### Ameaça
+
+Uma ameaça é qualquer evento, ação, pessoa, grupo, falha ou circunstância com potencial para causar dano.
+
+As ameaças podem ser intencionais ou acidentais. Podem surgir de atacantes externos, utilizadores internos, malware, falhas técnicas, erros humanos, fenómenos naturais ou problemas físicos.
+
+Exemplos de ameaças incluem:
+
+- phishing;
+- malware;
+- ransomware;
+- roubo de credenciais;
+- ataques de força bruta;
+- falhas de energia;
+- erro humano;
+- roubo ou perda de equipamento;
+- acesso indevido por utilizadores internos.
+
+Uma ameaça, por si só, representa uma possibilidade de dano. Para causar impacto, normalmente precisa de explorar uma vulnerabilidade.
+
+> **Nota:**  
+> **Atacante** é uma pessoa ou grupo que tenta comprometer um sistema, roubar informação, causar dano ou obter acesso não autorizado.  
+> **Erro humano** é uma ação involuntária que pode causar problemas de segurança, como apagar ficheiros, clicar num link fraudulento ou configurar mal um sistema.
+
+---
+
+### Vulnerabilidade
+
+Uma vulnerabilidade é uma fraqueza, falha ou deficiência que pode ser explorada por uma ameaça.
+
+As vulnerabilidades podem existir em software, hardware, redes, configurações, processos ou comportamentos humanos.
+
+Exemplos de vulnerabilidades incluem:
+
+- palavra-passe fraca;
+- sistema desatualizado;
+- aplicação com falhas de segurança;
+- permissões mal configuradas;
+- ausência de autenticação de dois fatores;
+- falta de cópias de segurança;
+- serviços expostos à Internet sem proteção adequada;
+- utilizadores sem formação suficiente.
+
+Uma vulnerabilidade não significa necessariamente que já ocorreu um incidente. Significa que existe uma fragilidade que pode ser explorada.
+
+> **Nota:**  
+> **Explorar uma vulnerabilidade** significa aproveitar uma falha para obter acesso, causar dano, alterar informação ou comprometer um sistema.  
+> **Configuração insegura** ocorre quando um sistema, aplicação ou serviço está definido de forma incorreta ou demasiado permissiva.
+
+---
+
+### Risco
+
+O risco resulta da combinação entre uma ameaça, uma vulnerabilidade e o impacto que poderá ocorrer caso essa vulnerabilidade seja explorada.
+
+De forma simples, o risco representa a possibilidade de algo correr mal e causar consequências negativas.
+
+Por exemplo, se uma aplicação estiver desatualizada e acessível através da Internet, existe o risco de um atacante explorar uma falha conhecida para comprometer o sistema.
+
+O risco pode ser maior ou menor consoante a probabilidade de ocorrência e o impacto esperado. Uma vulnerabilidade num sistema pouco importante pode representar um risco reduzido. Já uma vulnerabilidade num sistema crítico, exposto publicamente e com dados sensíveis, pode representar um risco elevado.
+
+> **Nota:**  
+> **Probabilidade** é a possibilidade de um evento acontecer.  
+> **Impacto** é a gravidade das consequências caso esse evento aconteça.  
+> **Sistema crítico** é um sistema essencial para o funcionamento de uma pessoa, organização ou serviço.
+
+---
+
+## Exemplo prático
+
+Um exemplo simples ajuda a compreender a relação entre estes conceitos:
+
+```text
+Situação:
+Uma conta de email utiliza uma palavra-passe fraca e não tem autenticação de dois fatores.
+
+Ameaça:
+Um atacante tenta adivinhar ou obter a palavra-passe.
+
+Vulnerabilidade:
+A palavra-passe é fraca e a conta não tem uma segunda camada de autenticação.
+
+Risco:
+A conta pode ser comprometida.
+
+Impacto:
+O atacante pode aceder a mensagens, redefinir palavras-passe de outros serviços, roubar informação ou enviar emails fraudulentos em nome da vítima.
+
+---
+## Síntese
+
+Os conceitos fundamentais de segurança da informação ajudam a compreender melhor a lógica da proteção digital.
+A tríade CIA permite identificar os principais objetivos da segurança: proteger a confidencialidade, preservar a integridade e garantir a disponibilidade da informação e dos sistemas.
+Os conceitos de ameaça, vulnerabilidade e risco ajudam a analisar situações de perigo, perceber como podem ocorrer incidentes e justificar a aplicação de medidas de proteção.
+Compreender estes conceitos é essencial para avançar para temas mais práticos, como gestão de acessos, segurança de redes, análise de vulnerabilidades, monitorização, resposta a incidentes e investigação digital.
