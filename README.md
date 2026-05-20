@@ -453,6 +453,7 @@ Impacto:
 O atacante pode aceder a mensagens, redefinir palavras-passe de outros serviços, roubar informação ou enviar emails fraudulentos em nome da vítima.
 
 ---
+
 ## Síntese
 
 Os conceitos fundamentais de segurança da informação ajudam a compreender melhor a lógica da proteção digital.
