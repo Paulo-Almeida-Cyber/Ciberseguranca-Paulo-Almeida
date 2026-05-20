@@ -277,8 +277,6 @@ Esta distinção é importante porque nem toda a informação sensível existe a
 
 Estas medidas não eliminam todos os riscos, mas reduzem a probabilidade de ocorrência de incidentes e ajudam a limitar o seu impacto.
 
-A partir desta base, torna-se possível avançar para conceitos mais específicos da segurança da informação, como confidencialidade, integridade, disponibilidade, ameaça, vulnerabilidade, risco, superfície de ataque e defesa em profundidade.
-
 
 > **Nota:**  
 > **Segurança da Informação** é a área que procura proteger a informação contra acesso indevido, alteração, perda, destruição ou divulgação não autorizada.  
