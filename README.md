@@ -279,17 +279,6 @@ Estas medidas não eliminam todos os riscos, mas reduzem a probabilidade de ocor
 
 A partir desta base, torna-se possível avançar para conceitos mais específicos da segurança da informação, como confidencialidade, integridade, disponibilidade, ameaça, vulnerabilidade, risco, superfície de ataque e defesa em profundidade.
 
----
-
-# Conceitos fundamentais de Segurança da Informação
-
-Depois de compreender o conceito geral de cibersegurança, torna-se necessário aprofundar alguns conceitos fundamentais da segurança da informação. Estes conceitos ajudam a analisar melhor os riscos, a compreender a importância da proteção dos dados e a justificar as medidas de segurança aplicadas em sistemas, redes e organizações.
-
-A segurança da informação preocupa-se com a proteção da informação em qualquer formato, seja digital, físico ou verbal. A cibersegurança, por sua vez, centra-se sobretudo na proteção da informação, dos sistemas e das infraestruturas no contexto digital.
-
-Desta forma, a cibersegurança pode ser entendida como uma parte da segurança da informação, orientada para os riscos associados às tecnologias, às redes, às aplicações e aos dispositivos.
-
-Esta distinção é importante porque nem toda a informação sensível existe apenas em computadores. Um documento impresso, uma conversa, uma palavra-passe escrita num papel ou um acesso partilhado indevidamente também podem representar riscos de segurança.
 
 > **Nota:**  
 > **Segurança da Informação** é a área que procura proteger a informação contra acesso indevido, alteração, perda, destruição ou divulgação não autorizada.  
