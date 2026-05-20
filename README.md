@@ -2,15 +2,19 @@
 
 ## Introdução
 
-Após concluir a formação Jovem + Digital em Cibersegurança, de nível 5 e com a duração de 300 horas, decidi criar este portefólio como forma de organizar e documentar o meu percurso de aprendizagem.
+Após concluir a formação Jovem + Digital em Cibersegurança, de nível 5 e com a duração de 300 horas, decidi criar este portefólio como forma de organizar, documentar e demonstrar o meu percurso de aprendizagem.
 
-Escolhi esta formação por ter interesse pela área da tecnologia e por querer compreender melhor como funcionam os sistemas, as redes e os mecanismos utilizados para proteger a informação. Ao longo da formação, tive a oportunidade de contactar com várias áreas da cibersegurança, desde os fundamentos de redes e sistemas até à análise de vulnerabilidades, monitorização, evidências digitais e resposta a incidentes.
+Esta formação marcou o início do meu caminho na área da cibersegurança. Escolhi esta área por ter interesse pela tecnologia e por querer compreender melhor como funcionam os sistemas, as redes, as vulnerabilidades e os mecanismos utilizados para proteger a informação.
 
-Este portefólio tem como objetivo reunir os conteúdos trabalhados, demonstrar as competências práticas desenvolvidas e apresentar, de forma estruturada, a evolução do meu conhecimento ao longo da formação. Para isso, irei incluir apontamentos, exercícios, laboratórios, análises, relatórios, comandos utilizados e conclusões sobre os temas abordados.
+Ao longo da formação tive contacto com várias áreas, desde os fundamentos de redes e sistemas, legislação e privacidade, até à análise de vulnerabilidades, programação aplicada à cibersegurança, evidências digitais, monitorização, IDS/IPS e resposta a incidentes.
 
-Quero também deixar um agradecimento aos formadores e à coordenadora da formação, pelo acompanhamento, disponibilidade e partilha de conhecimento ao longo deste percurso. O apoio prestado foi importante para consolidar aprendizagens e para compreender melhor a aplicação prática dos conteúdos.
+No entanto, este portefólio não tem apenas o objetivo de mostrar aquilo que foi abordado durante a formação. Pretendo que seja também um espaço de estudo, revisão e consolidação, onde possa voltar aos conteúdos sempre que precisar, organizar melhor a informação e reforçar matérias que, com o tempo, possam necessitar de ser revistas.
 
-Este projeto representa o início do meu percurso na área da cibersegurança. No futuro, pretendo continuar a atualizar este portefólio com novos conteúdos, projetos e aprendizagens, à medida que for realizando outras formações e aprofundando competências nesta área.
+A ideia deste projeto é construir uma espécie de registo contínuo da minha evolução na cibersegurança. Tudo começa com esta formação, mas o portefólio será atualizado ao longo do tempo com novos conteúdos, projetos, exercícios, apontamentos e aprendizagens resultantes de outras formações, estudo autónomo e experiências práticas.
+
+Desta forma, este repositório servirá tanto para demonstrar competências práticas como para funcionar como uma base de consulta pessoal, útil para rever conceitos, comandos, ferramentas, metodologias e procedimentos quando necessário.
+
+Quero também deixar um agradecimento aos formadores e à coordenadora da formação, pelo acompanhamento, disponibilidade e partilha de conhecimento ao longo deste percurso. O apoio prestado foi importante para consolidar aprendizagens e compreender melhor a aplicação prática dos conteúdos.
 
 ---
 
@@ -41,3 +45,23 @@ Este projeto representa o início do meu percurso na área da cibersegurança. N
 | 9195 | Gerir Sistemas de Deteção de Intrusos |
 | 9196 | Cibersegurança Ativa |
 
+---
+
+## Objetivo do portefólio
+
+O objetivo deste portefólio é reunir, de forma organizada, os conteúdos estudados, os exercícios realizados e os conhecimentos adquiridos ao longo da formação, demonstrando a sua aplicação prática através de apontamentos, laboratórios, análises, relatórios e documentação técnica.
+
+Este projeto será construído passo a passo. Em cada área, pretendo registar o que aprendi, rever os conceitos mais importantes, guardar exemplos práticos e documentar a forma como fui compreendendo e aplicando os conteúdos.
+
+Pretendo que este repositório funcione como:
+
+- um registo do meu percurso em cibersegurança;
+- uma forma de demonstrar as competências desenvolvidas;
+- um espaço para rever matérias estudadas durante a formação;
+- uma base de consulta para o futuro;
+- um local onde possa organizar novos conhecimentos adquiridos em futuras formações;
+- uma forma de acompanhar a minha evolução técnica ao longo do tempo.
+
+Mais do que apresentar um projeto fechado, este portefólio será uma construção contínua. Começa com a formação Jovem + Digital em Cibersegurança, mas será atualizado com novos conteúdos, projetos, exercícios e aprendizagens que venha a desenvolver no futuro.
+
+A intenção é que este espaço mostre não só aquilo que aprendi, mas também a forma como continuo a estudar, rever, praticar e evoluir na área da cibersegurança.
