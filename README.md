@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A conclusão da formação Jovem + Digital em Cibersegurança, de nível 5 e com a duração de 300 horas, constituiu o ponto de partida para a construção deste portefólio. A sua criação surge da necessidade de organizar, sistematizar e documentar o conhecimento adquirido ao longo da formação, bem como de reunir evidências práticas que permitam demonstrar a evolução do meu percurso na área da cibersegurança.
+  A conclusão da formação Jovem + Digital em Cibersegurança, de nível 5 e com a duração de 300 horas, constituiu o ponto de partida para a construção deste portefólio. A sua criação surge da necessidade de organizar, sistematizar e documentar o conhecimento adquirido ao longo da formação, bem como de reunir evidências práticas que permitam demonstrar a evolução do meu percurso na área da cibersegurança.
 
 A escolha desta formação resultou do meu interesse pela área tecnológica e da vontade de compreender, de forma mais aprofundada, o funcionamento dos sistemas informáticos, das redes de comunicação, das vulnerabilidades que lhes podem estar associadas e dos mecanismos utilizados para proteger a informação. Ao longo do percurso formativo, tive contacto com diferentes domínios da cibersegurança, desde os fundamentos de redes e sistemas, legislação, segurança e privacidade, até à análise de vulnerabilidades, programação aplicada à cibersegurança, evidências digitais, monitorização, deteção de intrusões e resposta a incidentes.
 
