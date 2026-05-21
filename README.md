@@ -451,6 +451,9 @@ A conta pode ser comprometida.
 
 Impacto:
 O atacante pode aceder a mensagens, redefinir palavras-passe de outros serviços, roubar informação ou enviar emails fraudulentos em nome da vítima.
+```
+
+Este exemplo mostra que a segurança não depende apenas de uma medida isolada. Uma palavra-passe forte reduz o risco, mas a autenticação de dois fatores acrescenta uma proteção adicional caso a palavra-passe seja descoberta.
 
 ---
 
@@ -460,3 +463,382 @@ Os conceitos fundamentais de segurança da informação ajudam a compreender mel
 A tríade CIA permite identificar os principais objetivos da segurança: proteger a confidencialidade, preservar a integridade e garantir a disponibilidade da informação e dos sistemas.
 Os conceitos de ameaça, vulnerabilidade e risco ajudam a analisar situações de perigo, perceber como podem ocorrer incidentes e justificar a aplicação de medidas de proteção.
 Compreender estes conceitos é essencial para avançar para temas mais práticos, como gestão de acessos, segurança de redes, análise de vulnerabilidades, monitorização, resposta a incidentes e investigação digital.
+
+---
+
+## Ativos e Superfície de Ataque
+
+Em segurança da informação, um dos primeiros passos para proteger um sistema é compreender quais são os seus **ativos**.
+Um ativo é qualquer elemento que tenha valor para uma pessoa, organização ou sistema. Pode ser informação, equipamento, software, serviço, conta, credencial, base de dados ou até conhecimento interno.
+De forma simples, um ativo é tudo aquilo que deve ser protegido porque a sua perda, alteração, exposição ou indisponibilidade pode causar impacto negativo.
+Exemplos de ativos incluem:
+
+- computadores;
+- servidores;
+- telemóveis;
+- contas de email;
+- palavras-passe;
+- bases de dados;
+- documentos internos;
+- aplicações web;
+- redes informáticas;
+- cópias de segurança;
+- informação pessoal ou profissional;
+- sistemas de autenticação;
+- serviços disponíveis através da Internet.
+
+Nem todos os ativos têm o mesmo nível de importância. Uma base de dados com informação sensível, por exemplo, exige um nível de proteção superior ao de um ficheiro público sem valor crítico.
+
+> **Nota:**  
+> Um **ativo** é qualquer recurso que tenha valor e que, por isso, deve ser protegido.  
+> Um **ativo crítico** é um recurso essencial para o funcionamento de um serviço, sistema ou organização.
+
+---
+
+### Superfície de Ataque
+
+A superfície de ataque corresponde ao conjunto de pontos através dos quais um atacante pode tentar aceder, explorar, interferir ou comprometer um sistema.
+
+Quanto maior for a superfície de ataque, maior tende a ser a quantidade de oportunidades para um ataque ocorrer. Por esse motivo, uma das preocupações da cibersegurança é reduzir a exposição desnecessária de sistemas, serviços e informação.
+
+Exemplos de elementos que podem fazer parte da superfície de ataque incluem:
+
+- portas de rede abertas;
+- serviços expostos à Internet;
+- aplicações web;
+- formulários de login;
+- contas de utilizador;
+- palavras-passe fracas;
+- sistemas desatualizados;
+- permissões excessivas;
+- dispositivos ligados à rede;
+- APIs;
+- emails e anexos;
+- redes Wi-Fi;
+- acessos remotos;
+- equipamentos sem proteção física adequada.
+
+A superfície de ataque não existe apenas ao nível técnico. Também pode envolver fatores humanos e organizacionais, como falta de formação, procedimentos inseguros, partilha indevida de credenciais ou ausência de políticas claras.
+
+> **Nota:**  
+> Uma **porta de rede** é um ponto lógico de comunicação usado por serviços e aplicações.  
+> Uma **API** é uma forma de comunicação entre aplicações ou sistemas.  
+> Um **acesso remoto** permite aceder a um sistema à distância, por exemplo através de VPN, SSH ou ambiente de trabalho remoto.
+
+---
+
+### Redução da Superfície de Ataque
+
+Reduzir a superfície de ataque significa diminuir o número de pontos que podem ser explorados por um atacante.
+
+Esta redução pode ser feita através de várias medidas, como:
+
+- desativar serviços que não são necessários;
+- fechar portas de rede não utilizadas;
+- remover contas antigas ou sem utilização;
+- aplicar atualizações de segurança;
+- limitar permissões dos utilizadores;
+- proteger acessos remotos;
+- utilizar autenticação de dois fatores;
+- configurar corretamente firewalls;
+- evitar exposição direta de sistemas sensíveis à Internet;
+- rever regularmente configurações e acessos.
+
+O objetivo não é tornar o sistema impossível de atacar, mas reduzir as oportunidades disponíveis para um atacante e dificultar a exploração de falhas.
+
+Por exemplo, se um servidor tiver vários serviços ativos que não são necessários, cada um deles pode representar uma possível porta de entrada. Ao desativar esses serviços, reduz-se a exposição do sistema.
+
+---
+
+### Exemplo prático
+
+```text
+Situação:
+Uma empresa tem um servidor ligado à Internet com vários serviços ativos.
+
+Ativos:
+Servidor, aplicação web, base de dados e contas de utilizador.
+
+Superfície de ataque:
+Página de login, portas abertas, serviço de acesso remoto, aplicação web e contas existentes.
+
+Problema:
+Alguns serviços estão ativos sem necessidade e o acesso remoto não tem autenticação de dois fatores.
+
+Medidas possíveis:
+Desativar serviços desnecessários, fechar portas não utilizadas, ativar autenticação de dois fatores, atualizar o servidor e rever permissões.
+
+Este exemplo mostra que conhecer os ativos e a superfície de ataque ajuda a perceber onde estão os pontos mais sensíveis e que medidas devem ser aplicadas para reduzir o risco.
+
+Impacto e Probabilidade
+
+Depois de identificar ativos, ameaças, vulnerabilidades e superfície de ataque, é necessário compreender dois elementos essenciais na análise de risco: impacto e probabilidade.
+
+A probabilidade representa a possibilidade de um incidente acontecer. O impacto representa a gravidade das consequências caso esse incidente ocorra.
+
+Um risco é geralmente mais elevado quando existe uma probabilidade significativa de ocorrência e um impacto grave.
+
+Por exemplo, uma vulnerabilidade num sistema público, desatualizado e com dados sensíveis pode representar um risco elevado, porque existe maior possibilidade de exploração e consequências potencialmente graves.
+
+Por outro lado, uma falha num sistema isolado, sem dados importantes e sem ligação à Internet pode representar um risco menor, embora não deva ser ignorada.
+
+Nota:
+Probabilidade é a possibilidade de um evento acontecer.
+Impacto é a gravidade das consequências caso esse evento aconteça.
+Análise de risco é o processo de identificar, avaliar e compreender riscos para decidir que medidas devem ser aplicadas.
+
+Exemplo prático
+Situação:
+Uma aplicação web contém dados pessoais e está acessível através da Internet.
+
+Vulnerabilidade:
+A aplicação está desatualizada.
+
+Ameaça:
+Um atacante pode explorar uma falha conhecida.
+
+Probabilidade:
+Média ou alta, porque o sistema está exposto publicamente.
+
+Impacto:
+Elevado, porque pode existir exposição de dados pessoais.
+
+Risco:
+Elevado.
+
+Neste caso, a prioridade deve ser corrigir a vulnerabilidade, atualizar a aplicação e aplicar medidas adicionais de proteção, como controlo de acessos, monitorização e cópias de segurança.
+
+---
+
+## Defesa em Profundidade
+
+A defesa em profundidade é uma abordagem de segurança baseada na utilização de várias camadas de proteção.
+
+A ideia principal é não depender de uma única medida de segurança. Se uma camada falhar, devem existir outras capazes de dificultar o ataque, reduzir o impacto ou permitir uma resposta mais rápida.
+
+Por exemplo, uma palavra-passe forte é importante, mas pode não ser suficiente. Se essa palavra-passe for descoberta, a autenticação de dois fatores pode impedir o acesso indevido. Da mesma forma, um antivírus pode ajudar a detetar malware, mas não substitui atualizações, backups, controlo de acessos ou monitorização.
+
+A defesa em profundidade procura, por isso, combinar diferentes medidas de proteção, como:
+
+- palavras-passe fortes;
+- autenticação de dois fatores;
+- atualizações de segurança;
+- antivírus ou antimalware;
+- firewall;
+- controlo de acessos;
+- permissões adequadas;
+- cópias de segurança;
+- encriptação;
+- monitorização de logs;
+- formação dos utilizadores;
+- planos de resposta a incidentes.
+
+Esta abordagem é importante porque nenhum sistema é totalmente invulnerável. As falhas podem surgir em diferentes pontos: no software, na configuração, nos utilizadores, na rede ou nos processos internos.
+
+Quanto mais bem organizadas estiverem as camadas de defesa, maior será a capacidade de prevenir, detetar, conter e recuperar de um incidente.
+
+> **Nota:**  
+> **Defesa em profundidade** significa aplicar várias camadas de segurança em vez de depender de uma única proteção.  
+> **Firewall** é um mecanismo que controla o tráfego de rede, permitindo ou bloqueando comunicações com base em regras definidas.  
+> **Logs** são registos de eventos gerados por sistemas, aplicações ou dispositivos. Podem mostrar acessos, erros, alterações, tentativas de login e outras atividades relevantes.
+
+---
+
+### Exemplo prático
+
+```text
+Situação:
+Uma empresa utiliza uma aplicação web para gerir dados de clientes.
+
+Camadas de defesa:
+- palavra-passe forte;
+- autenticação de dois fatores;
+- firewall;
+- atualizações regulares;
+- permissões limitadas;
+- cópias de segurança;
+- monitorização de logs.
+
+Problema:
+Um atacante consegue descobrir a palavra-passe de um utilizador.
+
+Resultado:
+A autenticação de dois fatores pode impedir o acesso. Mesmo que o acesso ocorra, permissões limitadas reduzem o impacto, os logs ajudam a detetar atividade suspeita e os backups podem apoiar a recuperação caso exista perda de dados.
+```
+
+Este exemplo mostra que a segurança é mais eficaz quando várias medidas trabalham em conjunto. Uma camada pode falhar, mas as restantes ajudam a limitar o dano.
+
+---
+
+## Princípio do Menor Privilégio
+
+O princípio do menor privilégio estabelece que cada utilizador, conta, aplicação ou sistema deve ter apenas os acessos necessários para realizar a sua função.
+
+Isto significa que não se deve conceder mais permissões do que aquelas que são realmente necessárias. Quanto maiores forem os privilégios de uma conta, maior poderá ser o impacto caso essa conta seja comprometida.
+
+Por exemplo, um utilizador que apenas precisa de consultar documentos não deve ter permissões para apagar ficheiros, alterar configurações ou criar novas contas. Da mesma forma, uma aplicação que só precisa de ler dados não deve ter permissão para modificar ou eliminar informação.
+
+Este princípio ajuda a reduzir o risco, porque limita o que pode ser feito em caso de erro, abuso ou ataque.
+
+Aplicar o menor privilégio envolve medidas como:
+
+- criar contas individuais para cada utilizador;
+- evitar a utilização diária de contas de administrador;
+- conceder permissões apenas quando são necessárias;
+- rever acessos regularmente;
+- remover contas antigas ou sem utilização;
+- limitar permissões de aplicações e serviços;
+- separar funções administrativas de funções comuns;
+- registar e monitorizar ações sensíveis.
+
+> **Nota:**  
+> **Privilégio** é uma permissão especial atribuída a uma conta, utilizador, aplicação ou sistema.  
+> **Conta de administrador** é uma conta com permissões elevadas, capaz de alterar configurações, instalar software, gerir utilizadores ou modificar partes importantes do sistema.  
+> **Permissões** são regras que definem o que uma pessoa, conta ou aplicação pode fazer, como ler, alterar, apagar ou executar ficheiros.
+
+---
+
+### Exemplo prático
+
+```text
+Situação:
+Numa empresa, todos os utilizadores têm permissões de administrador nos seus computadores.
+
+Problema:
+Se um utilizador abrir um ficheiro malicioso, o malware poderá executar ações com privilégios elevados.
+
+Risco:
+O impacto do ataque pode ser maior, porque o malware poderá instalar programas, alterar configurações ou aceder a áreas protegidas do sistema.
+
+Medida correta:
+Remover permissões de administrador das contas comuns e criar contas administrativas separadas apenas para tarefas específicas.
+```
+
+Este exemplo mostra que limitar privilégios não serve apenas para controlar utilizadores. Serve também para reduzir o impacto de erros, falhas e ataques.
+
+---
+
+## Controlos de Segurança
+
+Os controlos de segurança são medidas utilizadas para reduzir riscos, proteger sistemas e responder a incidentes.
+
+Podem ser técnicos, organizacionais ou físicos. Um controlo técnico pode ser uma firewall ou um antivírus. Um controlo organizacional pode ser uma política de palavras-passe ou um procedimento de resposta a incidentes. Um controlo físico pode ser uma fechadura, um cartão de acesso ou uma câmara de vigilância.
+
+De forma geral, os controlos de segurança podem ser divididos em três tipos principais:
+
+- controlos preventivos;
+- controlos detetivos;
+- controlos corretivos.
+
+Cada tipo de controlo atua numa fase diferente: antes, durante ou depois de um incidente.
+
+> **Nota:**  
+> **Controlo de segurança** é qualquer medida aplicada para reduzir riscos, proteger informação ou limitar o impacto de um incidente.
+
+---
+
+### Controlos preventivos
+
+Os controlos preventivos têm como objetivo evitar que um incidente aconteça.
+
+São medidas aplicadas antes do problema ocorrer, procurando reduzir a probabilidade de ataque, erro ou acesso indevido.
+
+Exemplos de controlos preventivos incluem:
+
+- palavras-passe fortes;
+- autenticação de dois fatores;
+- firewall;
+- atualizações de segurança;
+- encriptação;
+- controlo de acessos;
+- formação dos utilizadores;
+- políticas de segurança;
+- segmentação de rede;
+- bloqueio automático de ecrã.
+
+Um exemplo simples é a autenticação de dois fatores. Mesmo que uma palavra-passe seja descoberta, esta medida pode impedir o acesso indevido à conta.
+
+---
+
+### Controlos detetivos
+
+Os controlos detetivos têm como objetivo identificar atividades suspeitas, falhas ou incidentes.
+
+São medidas utilizadas para perceber se algo está a acontecer ou se já aconteceu. Não impedem necessariamente o problema, mas ajudam a detetá-lo rapidamente.
+
+Exemplos de controlos detetivos incluem:
+
+- análise de logs;
+- sistemas de deteção de intrusões;
+- alertas de segurança;
+- monitorização de rede;
+- auditorias;
+- deteção de alterações em ficheiros;
+- relatórios de atividade;
+- revisão de acessos.
+
+Um exemplo é a monitorização de tentativas de login falhadas. Várias tentativas seguidas podem indicar um ataque de força bruta ou uma tentativa de acesso indevido.
+
+> **Nota:**  
+> Um **IDS** é um sistema de deteção de intrusões. A sua função é identificar comportamentos suspeitos ou atividades potencialmente maliciosas.  
+> **Auditoria** é uma análise realizada para verificar se sistemas, processos ou acessos estão de acordo com regras, políticas ou boas práticas.
+
+---
+
+### Controlos corretivos
+
+Os controlos corretivos têm como objetivo reduzir o impacto de um incidente e apoiar a recuperação.
+
+São aplicados depois de uma falha, ataque ou problema ter ocorrido. Servem para corrigir a situação, restaurar sistemas, recuperar dados e evitar que o mesmo problema se repita.
+
+Exemplos de controlos corretivos incluem:
+
+- restauração de backups;
+- remoção de malware;
+- alteração de palavras-passe comprometidas;
+- correção de vulnerabilidades;
+- reinstalação de sistemas;
+- aplicação de patches;
+- isolamento de equipamentos afetados;
+- revisão de permissões;
+- melhoria de procedimentos.
+
+Um exemplo é a recuperação de ficheiros através de uma cópia de segurança depois de um ataque de ransomware.
+
+> **Nota:**  
+> **Patch** é uma atualização ou correção aplicada a um software para resolver falhas, incluindo falhas de segurança.  
+> **Isolamento** significa separar um equipamento ou sistema da rede para impedir que o problema se espalhe.
+
+---
+
+### Exemplo prático
+
+```text
+Situação:
+Um utilizador recebe um email de phishing com um anexo malicioso.
+
+Controlo preventivo:
+Formação do utilizador, filtro de email e antivírus.
+
+Controlo detetivo:
+Alerta do antivírus, registo em logs e monitorização de atividade suspeita.
+
+Controlo corretivo:
+Remoção do malware, alteração de palavras-passe, análise do incidente e recuperação de ficheiros através de backup, se necessário.
+```
+
+Este exemplo mostra que os controlos de segurança não atuam todos da mesma forma. Alguns procuram impedir o incidente, outros ajudam a detetá-lo e outros permitem recuperar depois do problema.
+
+---
+
+## Síntese
+
+Os conceitos de defesa em profundidade, menor privilégio e controlos de segurança ajudam a transformar a segurança da informação numa abordagem mais organizada e prática.
+
+A defesa em profundidade mostra que a proteção deve ser feita através de várias camadas, evitando depender de uma única medida.
+
+O princípio do menor privilégio reforça a importância de limitar acessos e permissões ao necessário, reduzindo o impacto de erros, abusos ou contas comprometidas.
+
+Os controlos de segurança permitem organizar as medidas de proteção em três momentos: prevenção, deteção e correção.
+
+Com estes conceitos, torna-se mais fácil compreender como proteger sistemas, reduzir riscos, analisar incidentes e justificar a escolha de medidas de segurança adequadas.
