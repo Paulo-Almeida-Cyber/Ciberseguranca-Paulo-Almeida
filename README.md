@@ -2,13 +2,17 @@
 
 ## Introdução
 
-  A conclusão da formação Jovem + Digital em Cibersegurança, de nível 5 e com a duração de 300 horas, constituiu o ponto de partida para a construção deste portefólio. A sua criação surge da necessidade de organizar, sistematizar e documentar o conhecimento adquirido ao longo da formação, bem como de reunir evidências práticas que permitam demonstrar a evolução do meu percurso na área da cibersegurança.
+A conclusão da formação Jovem + Digital em Cibersegurança, de nível 5 e com a duração de 300 horas, constituiu o ponto de partida para a construção deste portefólio. A sua criação surge da necessidade de organizar, sistematizar e documentar o conhecimento adquirido ao longo da formação, bem como de reunir evidências práticas que permitam demonstrar a evolução do meu percurso na área da cibersegurança.
 
-A escolha desta formação resultou do meu interesse pela área tecnológica e da vontade de compreender, de forma mais aprofundada, o funcionamento dos sistemas informáticos, das redes de comunicação, das vulnerabilidades que lhes podem estar associadas e dos mecanismos utilizados para proteger a informação. Ao longo do percurso formativo, tive contacto com diferentes domínios da cibersegurança, desde os fundamentos de redes e sistemas, legislação, segurança e privacidade, até à análise de vulnerabilidades, programação aplicada à cibersegurança, evidências digitais, monitorização, deteção de intrusões e resposta a incidentes.
+A escolha desta formação resultou do meu interesse pela área tecnológica e da vontade de compreender, de forma mais aprofundada, o funcionamento dos sistemas informáticos, das redes de comunicação, das vulnerabilidades que lhes podem estar associadas e dos mecanismos utilizados para proteger a informação.
 
-Este portefólio pretende, assim, assumir-se como um instrumento de organização, reflexão e consolidação do conhecimento. Não se limita à apresentação dos conteúdos abordados durante a formação, procurando também funcionar como uma base de estudo contínuo, onde possa rever conceitos, consultar procedimentos, reorganizar apontamentos, aprofundar matérias e consolidar competências sempre que necessário.
+Ao longo do percurso formativo, tive contacto com diferentes domínios da cibersegurança, desde os fundamentos de redes e sistemas, legislação, segurança e privacidade, até à análise de vulnerabilidades, programação aplicada à cibersegurança, evidências digitais, monitorização, deteção de intrusões e resposta a incidentes.
 
-Neste sentido, o repositório será desenvolvido de forma progressiva, acompanhando não apenas os conteúdos trabalhados na formação Jovem + Digital em Cibersegurança, mas também aprendizagens futuras resultantes de outras formações, estudo autónomo, exercícios práticos e projetos que venha a desenvolver. A sua finalidade é, por isso, dupla: por um lado, demonstrar as competências adquiridas e desenvolvidas; por outro, constituir uma base de consulta pessoal e técnica para apoio ao meu crescimento contínuo na área.
+Este portefólio pretende assumir-se como um instrumento de organização, reflexão e consolidação do conhecimento. Não se limita à apresentação dos conteúdos abordados durante a formação, procurando também funcionar como uma base de estudo contínuo, onde possa rever conceitos, consultar procedimentos, reorganizar apontamentos, aprofundar matérias e consolidar competências sempre que necessário.
+
+Neste sentido, o repositório será desenvolvido de forma progressiva, acompanhando não apenas os conteúdos trabalhados na formação Jovem + Digital em Cibersegurança, mas também aprendizagens futuras resultantes de outras formações, estudo autónomo, exercícios práticos e projetos que venha a desenvolver.
+
+A sua finalidade é, por isso, dupla: por um lado, demonstrar as competências adquiridas e desenvolvidas; por outro, constituir uma base de consulta pessoal e técnica para apoio ao meu crescimento contínuo na área.
 
 A estrutura deste portefólio será construída de forma gradual, procurando documentar cada etapa com rigor, clareza e sentido crítico. Serão incluídos apontamentos, exercícios, comandos utilizados, análises, relatórios, evidências práticas e reflexões sobre os temas abordados, de modo a representar não apenas o resultado final da aprendizagem, mas também o processo através do qual esse conhecimento foi adquirido, revisto e consolidado.
 
@@ -88,13 +92,14 @@ Entre as principais medidas básicas encontram-se:
 - ter cuidado com emails, links e ficheiros;
 - confirmar a segurança dos sites visitados;
 - evitar operações sensíveis em redes públicas;
+- não expor serviços ou dispositivos IoT diretamente à Internet sem proteção adequada;
 - realizar cópias de segurança regularmente;
 - proteger fisicamente os dispositivos;
 - manter uma atitude de atenção e aprendizagem contínua.
 
 > **Nota:**  
-> Uma **camada de proteção** é uma medida que ajuda a reduzir o risco.  
-> Por exemplo, uma palavra-passe forte é uma camada; a autenticação de dois fatores é outra; uma cópia de segurança é outra.
+> Uma **camada de proteção** é uma medida que ajuda a reduzir o risco. Por exemplo, uma palavra-passe forte é uma camada; a autenticação de dois fatores é outra; uma cópia de segurança é outra.  
+> **IoT** significa *Internet of Things*, ou Internet das Coisas. Refere-se a dispositivos ligados à Internet, como câmaras, sensores, televisões, fechaduras inteligentes ou outros equipamentos conectados.
 
 ---
 
@@ -172,6 +177,8 @@ As redes Wi-Fi públicas, como as de cafés, hotéis, centros comerciais ou tran
 
 Quando for necessário utilizar uma rede pública, a utilização de uma VPN pode acrescentar uma camada de proteção, criando uma ligação mais segura entre o dispositivo e a Internet.
 
+Também se deve evitar a exposição direta de serviços internos ou dispositivos IoT à Internet. Quando for necessário acesso remoto, é preferível utilizar mecanismos de proteção, como VPN, autenticação forte, firewall e regras bem definidas de acesso.
+
 > **Nota:**  
 > **HTTPS** é a versão segura do HTTP e permite proteger a comunicação entre o navegador e o site.  
 > **Encriptação** é o processo de transformar informação num formato ilegível para quem não tem autorização para a ler.  
@@ -208,7 +215,9 @@ Um ransomware pode bloquear ou cifrar ficheiros e exigir um pagamento para permi
 
 As cópias de segurança devem ser realizadas regularmente e guardadas em locais seguros. Sempre que possível, deve existir pelo menos uma cópia offline, ou seja, desligada da Internet e separada do sistema principal.
 
-Também é importante testar periodicamente se as cópias de segurança podem ser recuperadas. Um backup que não pode ser restaurado não cumpre a sua função principal.
+Também é importante guardar cópias em local físico diferente ou numa cloud fiável, de forma a evitar que uma avaria, roubo, incêndio ou outro incidente afete simultaneamente o sistema principal e a cópia de segurança.
+
+Além disso, deve testar-se periodicamente se as cópias de segurança podem ser recuperadas. Um backup que não pode ser restaurado não cumpre a sua função principal.
 
 As cópias de segurança não impedem um ataque, mas podem ser decisivas para recuperar dados e garantir a continuidade do trabalho.
 
@@ -263,9 +272,15 @@ Os fundamentos de cibersegurança mostram que a proteção digital começa por p
 
 Palavras-passe fortes, autenticação de dois fatores, atualizações regulares, antivírus ativo, cuidado com emails e ficheiros, navegação segura, utilização prudente de redes Wi-Fi públicas, VPN, cópias de segurança, proteção física dos dispositivos e formação contínua constituem uma base essencial.
 
+Estas medidas não eliminam todos os riscos, mas reduzem a probabilidade de ocorrência de incidentes e ajudam a limitar o seu impacto.
+
+A partir desta base, torna-se possível avançar para conceitos mais específicos da segurança da informação, como confidencialidade, integridade, disponibilidade, ameaça, vulnerabilidade, risco, superfície de ataque e defesa em profundidade.
+
 ---
 
 # Conceitos fundamentais de Segurança da Informação
+
+## Segurança da Informação e Cibersegurança
 
 Depois de compreender o conceito geral de cibersegurança, torna-se necessário aprofundar alguns conceitos fundamentais da segurança da informação. Estes conceitos ajudam a analisar melhor os riscos, a compreender a importância da proteção dos dados e a justificar as medidas de segurança aplicadas em sistemas, redes e organizações.
 
@@ -274,9 +289,6 @@ A segurança da informação preocupa-se com a proteção da informação em qua
 Desta forma, a cibersegurança pode ser entendida como uma parte da segurança da informação, orientada para os riscos associados às tecnologias, às redes, às aplicações e aos dispositivos.
 
 Esta distinção é importante porque nem toda a informação sensível existe apenas em computadores. Um documento impresso, uma conversa, uma palavra-passe escrita num papel ou um acesso partilhado indevidamente também podem representar riscos de segurança.
-
-Estas medidas não eliminam todos os riscos, mas reduzem a probabilidade de ocorrência de incidentes e ajudam a limitar o seu impacto.
-
 
 > **Nota:**  
 > **Segurança da Informação** é a área que procura proteger a informação contra acesso indevido, alteração, perda, destruição ou divulgação não autorizada.  
@@ -356,6 +368,25 @@ Compreender esta relação é essencial para analisar incidentes, avaliar riscos
 
 ---
 
+## Conceitos complementares: autenticidade, rastreabilidade e não repúdio
+
+Além da confidencialidade, integridade e disponibilidade, existem outros conceitos importantes para compreender a segurança da informação.
+
+A **autenticidade** está relacionada com a capacidade de confirmar se uma pessoa, sistema, documento ou mensagem é realmente aquilo que afirma ser. Este conceito é importante, por exemplo, na validação de identidades, certificados digitais, assinaturas digitais e comunicações seguras.
+
+A **rastreabilidade** permite acompanhar ações realizadas num sistema. Registos de atividade, logs e auditorias ajudam a perceber quem fez determinada ação, quando a fez e em que contexto ocorreu.
+
+O **não repúdio** procura impedir que uma pessoa negue uma ação que realizou, como o envio de uma mensagem, a assinatura de um documento ou a aprovação de uma operação.
+
+Estes conceitos são especialmente úteis em contextos onde é necessário provar ações, preservar evidências, analisar incidentes ou garantir responsabilidade sobre decisões e acessos.
+
+> **Nota:**  
+> **Autenticidade** está relacionada com a verificação da identidade ou origem de algo.  
+> **Rastreabilidade** é a capacidade de acompanhar e reconstruir ações realizadas num sistema.  
+> **Não repúdio** significa impedir que uma ação realizada possa ser negada posteriormente sem fundamento.
+
+---
+
 ## Ameaça, Vulnerabilidade e Risco
 
 Para compreender a segurança da informação, é também necessário distinguir três conceitos fundamentais: **ameaça**, **vulnerabilidade** e **risco**.
@@ -432,45 +463,28 @@ O risco pode ser maior ou menor consoante a probabilidade de ocorrência e o imp
 
 ---
 
-## Exemplo prático
+### Exemplo prático
 
 Um exemplo simples ajuda a compreender a relação entre estes conceitos:
 
-```text
-Situação:
-Uma conta de email utiliza uma palavra-passe fraca e não tem autenticação de dois fatores.
-
-Ameaça:
-Um atacante tenta adivinhar ou obter a palavra-passe.
-
-Vulnerabilidade:
-A palavra-passe é fraca e a conta não tem uma segunda camada de autenticação.
-
-Risco:
-A conta pode ser comprometida.
-
-Impacto:
-O atacante pode aceder a mensagens, redefinir palavras-passe de outros serviços, roubar informação ou enviar emails fraudulentos em nome da vítima.
-```
+> **Situação:** uma conta de email utiliza uma palavra-passe fraca e não tem autenticação de dois fatores.  
+> **Ameaça:** um atacante tenta adivinhar ou obter a palavra-passe.  
+> **Vulnerabilidade:** a palavra-passe é fraca e a conta não tem uma segunda camada de autenticação.  
+> **Risco:** a conta pode ser comprometida.  
+> **Impacto:** o atacante pode aceder a mensagens, redefinir palavras-passe de outros serviços, roubar informação ou enviar emails fraudulentos em nome da vítima.
 
 Este exemplo mostra que a segurança não depende apenas de uma medida isolada. Uma palavra-passe forte reduz o risco, mas a autenticação de dois fatores acrescenta uma proteção adicional caso a palavra-passe seja descoberta.
-
----
-
-## Síntese
-
-Os conceitos fundamentais de segurança da informação ajudam a compreender melhor a lógica da proteção digital.
-A tríade CIA permite identificar os principais objetivos da segurança: proteger a confidencialidade, preservar a integridade e garantir a disponibilidade da informação e dos sistemas.
-Os conceitos de ameaça, vulnerabilidade e risco ajudam a analisar situações de perigo, perceber como podem ocorrer incidentes e justificar a aplicação de medidas de proteção.
-Compreender estes conceitos é essencial para avançar para temas mais práticos, como gestão de acessos, segurança de redes, análise de vulnerabilidades, monitorização, resposta a incidentes e investigação digital.
 
 ---
 
 ## Ativos e Superfície de Ataque
 
 Em segurança da informação, um dos primeiros passos para proteger um sistema é compreender quais são os seus **ativos**.
+
 Um ativo é qualquer elemento que tenha valor para uma pessoa, organização ou sistema. Pode ser informação, equipamento, software, serviço, conta, credencial, base de dados ou até conhecimento interno.
+
 De forma simples, um ativo é tudo aquilo que deve ser protegido porque a sua perda, alteração, exposição ou indisponibilidade pode causar impacto negativo.
+
 Exemplos de ativos incluem:
 
 - computadores;
@@ -552,29 +566,21 @@ Por exemplo, se um servidor tiver vários serviços ativos que não são necess�
 
 ### Exemplo prático
 
-```text
-Situação:
-Uma empresa tem um servidor ligado à Internet com vários serviços ativos.
-
-Ativos:
-Servidor, aplicação web, base de dados e contas de utilizador.
-
-Superfície de ataque:
-Página de login, portas abertas, serviço de acesso remoto, aplicação web e contas existentes.
-
-Problema:
-Alguns serviços estão ativos sem necessidade e o acesso remoto não tem autenticação de dois fatores.
-
-Medidas possíveis:
-Desativar serviços desnecessários, fechar portas não utilizadas, ativar autenticação de dois fatores, atualizar o servidor e rever permissões.
+> **Situação:** uma empresa tem um servidor ligado à Internet com vários serviços ativos.  
+> **Ativos:** servidor, aplicação web, base de dados e contas de utilizador.  
+> **Superfície de ataque:** página de login, portas abertas, serviço de acesso remoto, aplicação web e contas existentes.  
+> **Problema:** alguns serviços estão ativos sem necessidade e o acesso remoto não tem autenticação de dois fatores.  
+> **Medidas possíveis:** desativar serviços desnecessários, fechar portas não utilizadas, ativar autenticação de dois fatores, atualizar o servidor e rever permissões.
 
 Este exemplo mostra que conhecer os ativos e a superfície de ataque ajuda a perceber onde estão os pontos mais sensíveis e que medidas devem ser aplicadas para reduzir o risco.
 
-Impacto e Probabilidade
+---
 
-Depois de identificar ativos, ameaças, vulnerabilidades e superfície de ataque, é necessário compreender dois elementos essenciais na análise de risco: impacto e probabilidade.
+## Impacto e Probabilidade
 
-A probabilidade representa a possibilidade de um incidente acontecer. O impacto representa a gravidade das consequências caso esse incidente ocorra.
+Depois de identificar ativos, ameaças, vulnerabilidades e superfície de ataque, é necessário compreender dois elementos essenciais na análise de risco: **impacto** e **probabilidade**.
+
+A **probabilidade** representa a possibilidade de um incidente acontecer. O **impacto** representa a gravidade das consequências caso esse incidente ocorra.
 
 Um risco é geralmente mais elevado quando existe uma probabilidade significativa de ocorrência e um impacto grave.
 
@@ -582,31 +588,47 @@ Por exemplo, uma vulnerabilidade num sistema público, desatualizado e com dados
 
 Por outro lado, uma falha num sistema isolado, sem dados importantes e sem ligação à Internet pode representar um risco menor, embora não deva ser ignorada.
 
-Nota:
-Probabilidade é a possibilidade de um evento acontecer.
-Impacto é a gravidade das consequências caso esse evento aconteça.
-Análise de risco é o processo de identificar, avaliar e compreender riscos para decidir que medidas devem ser aplicadas.
+> **Nota:**  
+> **Probabilidade** é a possibilidade de um evento acontecer.  
+> **Impacto** é a gravidade das consequências caso esse evento aconteça.  
+> **Análise de risco** é o processo de identificar, avaliar e compreender riscos para decidir que medidas devem ser aplicadas.
 
-Exemplo prático
-Situação:
-Uma aplicação web contém dados pessoais e está acessível através da Internet.
+---
 
-Vulnerabilidade:
-A aplicação está desatualizada.
+### Exemplo prático
 
-Ameaça:
-Um atacante pode explorar uma falha conhecida.
-
-Probabilidade:
-Média ou alta, porque o sistema está exposto publicamente.
-
-Impacto:
-Elevado, porque pode existir exposição de dados pessoais.
-
-Risco:
-Elevado.
+> **Situação:** uma aplicação web contém dados pessoais e está acessível através da Internet.  
+> **Vulnerabilidade:** a aplicação está desatualizada.  
+> **Ameaça:** um atacante pode explorar uma falha conhecida.  
+> **Probabilidade:** média ou alta, porque o sistema está exposto publicamente.  
+> **Impacto:** elevado, porque pode existir exposição de dados pessoais.  
+> **Risco:** elevado.
 
 Neste caso, a prioridade deve ser corrigir a vulnerabilidade, atualizar a aplicação e aplicar medidas adicionais de proteção, como controlo de acessos, monitorização e cópias de segurança.
+
+---
+
+## Criticidade e Priorização
+
+Depois de avaliar o impacto e a probabilidade, é necessário decidir quais os problemas que devem ser tratados primeiro.
+
+Nem todos os riscos têm a mesma urgência. Alguns podem afetar sistemas críticos, expor dados sensíveis ou interromper serviços essenciais. Outros podem ter impacto reduzido ou estar associados a sistemas menos importantes.
+
+A priorização permite organizar a resposta, concentrando primeiro os recursos nos riscos mais graves. Para isso, é comum considerar fatores como:
+
+- impacto esperado;
+- urgência da correção;
+- exposição do sistema;
+- existência de dados sensíveis;
+- facilidade de exploração;
+- importância do ativo afetado;
+- possibilidade de propagação do incidente.
+
+Um problema que afeta um sistema crítico e exposto à Internet deve, em regra, ter prioridade superior a uma falha num sistema isolado e sem dados relevantes.
+
+> **Nota:**  
+> **Criticidade** é o grau de importância de um sistema, ativo ou incidente.  
+> **Priorização** é o processo de ordenar problemas ou ações de acordo com a sua gravidade, urgência e impacto.
 
 ---
 
@@ -618,7 +640,7 @@ A ideia principal é não depender de uma única medida de segurança. Se uma ca
 
 Por exemplo, uma palavra-passe forte é importante, mas pode não ser suficiente. Se essa palavra-passe for descoberta, a autenticação de dois fatores pode impedir o acesso indevido. Da mesma forma, um antivírus pode ajudar a detetar malware, mas não substitui atualizações, backups, controlo de acessos ou monitorização.
 
-A defesa em profundidade procura, por isso, combinar diferentes medidas de proteção, como:
+A defesa em profundidade procura combinar diferentes medidas de proteção, como:
 
 - palavras-passe fortes;
 - autenticação de dois fatores;
@@ -646,25 +668,10 @@ Quanto mais bem organizadas estiverem as camadas de defesa, maior será a capaci
 
 ### Exemplo prático
 
-```text
-Situação:
-Uma empresa utiliza uma aplicação web para gerir dados de clientes.
-
-Camadas de defesa:
-- palavra-passe forte;
-- autenticação de dois fatores;
-- firewall;
-- atualizações regulares;
-- permissões limitadas;
-- cópias de segurança;
-- monitorização de logs.
-
-Problema:
-Um atacante consegue descobrir a palavra-passe de um utilizador.
-
-Resultado:
-A autenticação de dois fatores pode impedir o acesso. Mesmo que o acesso ocorra, permissões limitadas reduzem o impacto, os logs ajudam a detetar atividade suspeita e os backups podem apoiar a recuperação caso exista perda de dados.
-```
+> **Situação:** uma empresa utiliza uma aplicação web para gerir dados de clientes.  
+> **Camadas de defesa:** palavra-passe forte, autenticação de dois fatores, firewall, atualizações regulares, permissões limitadas, cópias de segurança e monitorização de logs.  
+> **Problema:** um atacante consegue descobrir a palavra-passe de um utilizador.  
+> **Resultado:** a autenticação de dois fatores pode impedir o acesso. Mesmo que o acesso ocorra, permissões limitadas reduzem o impacto, os logs ajudam a detetar atividade suspeita e os backups podem apoiar a recuperação caso exista perda de dados.
 
 Este exemplo mostra que a segurança é mais eficaz quando várias medidas trabalham em conjunto. Uma camada pode falhar, mas as restantes ajudam a limitar o dano.
 
@@ -700,19 +707,10 @@ Aplicar o menor privilégio envolve medidas como:
 
 ### Exemplo prático
 
-```text
-Situação:
-Numa empresa, todos os utilizadores têm permissões de administrador nos seus computadores.
-
-Problema:
-Se um utilizador abrir um ficheiro malicioso, o malware poderá executar ações com privilégios elevados.
-
-Risco:
-O impacto do ataque pode ser maior, porque o malware poderá instalar programas, alterar configurações ou aceder a áreas protegidas do sistema.
-
-Medida correta:
-Remover permissões de administrador das contas comuns e criar contas administrativas separadas apenas para tarefas específicas.
-```
+> **Situação:** numa empresa, todos os utilizadores têm permissões de administrador nos seus computadores.  
+> **Problema:** se um utilizador abrir um ficheiro malicioso, o malware poderá executar ações com privilégios elevados.  
+> **Risco:** o impacto do ataque pode ser maior, porque o malware poderá instalar programas, alterar configurações ou aceder a áreas protegidas do sistema.  
+> **Medida correta:** remover permissões de administrador das contas comuns e criar contas administrativas separadas apenas para tarefas específicas.
 
 Este exemplo mostra que limitar privilégios não serve apenas para controlar utilizadores. Serve também para reduzir o impacto de erros, falhas e ataques.
 
@@ -813,32 +811,23 @@ Um exemplo é a recuperação de ficheiros através de uma cópia de segurança 
 
 ### Exemplo prático
 
-```text
-Situação:
-Um utilizador recebe um email de phishing com um anexo malicioso.
-
-Controlo preventivo:
-Formação do utilizador, filtro de email e antivírus.
-
-Controlo detetivo:
-Alerta do antivírus, registo em logs e monitorização de atividade suspeita.
-
-Controlo corretivo:
-Remoção do malware, alteração de palavras-passe, análise do incidente e recuperação de ficheiros através de backup, se necessário.
-```
+> **Situação:** um utilizador recebe um email de phishing com um anexo malicioso.  
+> **Controlo preventivo:** formação do utilizador, filtro de email e antivírus.  
+> **Controlo detetivo:** alerta do antivírus, registo em logs e monitorização de atividade suspeita.  
+> **Controlo corretivo:** remoção do malware, alteração de palavras-passe, análise do incidente e recuperação de ficheiros através de backup, se necessário.
 
 Este exemplo mostra que os controlos de segurança não atuam todos da mesma forma. Alguns procuram impedir o incidente, outros ajudam a detetá-lo e outros permitem recuperar depois do problema.
 
 ---
 
-## Síntese
+## Síntese final
 
-Os conceitos de defesa em profundidade, menor privilégio e controlos de segurança ajudam a transformar a segurança da informação numa abordagem mais organizada e prática.
+Os conceitos fundamentais de segurança da informação constituem a base para compreender a lógica da proteção digital.
 
-A defesa em profundidade mostra que a proteção deve ser feita através de várias camadas, evitando depender de uma única medida.
+Ao longo desta secção foram abordados princípios essenciais, como a confidencialidade, a integridade e a disponibilidade, que ajudam a definir os principais objetivos da segurança. Também foram explorados conceitos como ameaça, vulnerabilidade, risco, ativo, superfície de ataque, impacto e probabilidade, fundamentais para analisar situações de perigo e compreender as possíveis consequências de um incidente.
 
-O princípio do menor privilégio reforça a importância de limitar acessos e permissões ao necessário, reduzindo o impacto de erros, abusos ou contas comprometidas.
+Além disso, foram apresentados princípios e medidas que ajudam a organizar a proteção, como a defesa em profundidade, o princípio do menor privilégio e os controlos preventivos, detetivos e corretivos.
 
-Os controlos de segurança permitem organizar as medidas de proteção em três momentos: prevenção, deteção e correção.
+Em conjunto, estes conceitos permitem compreender que a cibersegurança não depende de uma única ferramenta ou medida isolada. Pelo contrário, exige análise, planeamento, boas práticas, controlo de acessos, monitorização e capacidade de resposta.
 
-Com estes conceitos, torna-se mais fácil compreender como proteger sistemas, reduzir riscos, analisar incidentes e justificar a escolha de medidas de segurança adequadas.
+Esta base conceptual será importante para compreender os temas seguintes, onde a segurança passa a ser analisada em contextos mais específicos, como a legislação, a privacidade, as redes, as vulnerabilidades, a deteção de intrusões e a resposta a incidentes.
