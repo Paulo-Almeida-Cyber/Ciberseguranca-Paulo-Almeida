@@ -6,7 +6,7 @@ A conclusão da formação Jovem + Digital em Cibersegurança, de nível 5 e com
 
 A escolha desta formação resultou do meu interesse pela área tecnológica e da vontade de compreender, de forma mais aprofundada, o funcionamento dos sistemas informáticos, das redes de comunicação, das vulnerabilidades que lhes podem estar associadas e dos mecanismos utilizados para proteger a informação.
 
-Ao longo do percurso formativo, tive contacto com diferentes domínios da cibersegurança, desde os fundamentos de redes e sistemas, legislação, segurança e privacidade, até à análise de vulnerabilidades, programação aplicada à cibersegurança, evidências digitais, monitorização, deteção de intrusões e resposta a incidentes.
+Ao longo do percurso formativo, tive contacto com diferentes domínios da cibersegurança, desde os fundamentos de redes e sistemas, legislação, segurança e privacidade, até à análise de vulnerabilidades, programação aplicada à cibersegurança com Ruby, evidências digitais, monitorização, deteção de intrusões e resposta a incidentes.
 
 Este portefólio pretende assumir-se como um instrumento de organização, reflexão e consolidação do conhecimento. Não se limita à apresentação dos conteúdos abordados durante a formação, procurando também funcionar como uma base de estudo contínuo, onde possa rever conceitos, consultar procedimentos, reorganizar apontamentos, aprofundar matérias e consolidar competências sempre que necessário.
 
@@ -54,13 +54,24 @@ Quero ainda expressar o meu agradecimento aos formadores e à coordenadora da fo
 - [Fundamentos de Cibersegurança](01-fundamentos-ciberseguranca.md)
 - [Conceitos fundamentais de Segurança da Informação](02-conceitos-seguranca-informacao.md)
 - [Enquadramento Legal, Ético e Privacidade](03-enquadramento-legal-etico-privacidade.md)
-- [Redes e Segurança de Infraestruturas](04-redes-e-seguranca-infraestruturas.md)
-- [Ameaças, Ataques e Vulnerabilidades](05-ameacas-ataques-e-vulnerabilidades.md)
-- [Análise de Vulnerabilidades](06-analise-de-vulnerabilidades.md)
-- [OSINT, Reconhecimento e Superfície de Ataque](07-osint-reconhecimento-superficie-ataque.md)
-- [Monitorização e Deteção de Intrusões](08-monitorizacao-detecao-intrusoes.md)
-- [Resposta a Incidentes e Evidências Digitais](09-resposta-incidentes-e-evidencias-digitais.md)
-- [Cibersegurança Ativa e Laboratórios](10-ciberseguranca-ativa-laboratorios.md)
+- [Hardware, Sistemas e Redes de Computadores](04-hardware-sistemas-redes.md)
+- [Redes e Segurança de Infraestruturas](05-redes-seguranca-infraestruturas.md)
+- [Ameaças, Ataques e Vulnerabilidades](06-ameacas-ataques-vulnerabilidades.md)
+- [Programação com Ruby aplicada à Cibersegurança](07-programacao-ruby-ciberseguranca.md)
+- [Análise de Vulnerabilidades](08-analise-vulnerabilidades.md)
+- [OSINT, Reconhecimento e Superfície de Ataque](09-osint-reconhecimento-superficie-ataque.md)
+- [Monitorização e Deteção de Intrusões](10-monitorizacao-detecao-intrusoes.md)
+- [Resposta a Incidentes e Evidências Digitais](11-resposta-incidentes-e-evidencias-digitais.md)
+- [Cibersegurança Ativa e Laboratórios Práticos](12-ciberseguranca-ativa-laboratorios.md)
+
+---
+
+## Organização dos conteúdos
+
+Este portefólio está organizado por temas, e não apenas pela ordem das UFCDs. Esta opção permite apresentar o percurso de forma mais clara, agrupando conceitos, ferramentas, práticas e reflexões de acordo com a sua relação técnica.
+
+Cada ficheiro aborda uma área específica da cibersegurança, podendo incluir explicações teóricas, exemplos práticos, ferramentas utilizadas, comandos, metodologias, observações e sínteses.
+
 
 ---
 
@@ -74,5 +85,6 @@ Pretende também demonstrar a evolução das minhas competências e servir como 
 
 ## Estado do projeto
 
-Este portefólio encontra-se em desenvolvimento contínuo.  
+Este portefólio encontra-se em desenvolvimento contínuo.
+
 Os conteúdos serão organizados, revistos e atualizados progressivamente, à medida que forem sendo consolidados novos conhecimentos, práticas e experiências.
