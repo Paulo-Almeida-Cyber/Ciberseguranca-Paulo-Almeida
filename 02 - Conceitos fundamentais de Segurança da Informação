@@ -1,0 +1,553 @@
+# Conceitos fundamentais de Segurança da Informação
+
+## Segurança da Informação e Cibersegurança
+
+Depois de compreender o conceito geral de cibersegurança, torna-se necessário aprofundar alguns conceitos fundamentais da segurança da informação. Estes conceitos ajudam a analisar melhor os riscos, a compreender a importância da proteção dos dados e a justificar as medidas de segurança aplicadas em sistemas, redes e organizações.
+
+A segurança da informação preocupa-se com a proteção da informação em qualquer formato, seja digital, físico ou verbal. A cibersegurança, por sua vez, centra-se sobretudo na proteção da informação, dos sistemas e das infraestruturas no contexto digital.
+
+Desta forma, a cibersegurança pode ser entendida como uma parte da segurança da informação, orientada para os riscos associados às tecnologias, às redes, às aplicações e aos dispositivos.
+
+Esta distinção é importante porque nem toda a informação sensível existe apenas em computadores. Um documento impresso, uma conversa, uma palavra-passe escrita num papel ou um acesso partilhado indevidamente também podem representar riscos de segurança.
+
+> **Nota:**  
+> **Segurança da Informação** é a área que procura proteger a informação contra acesso indevido, alteração, perda, destruição ou divulgação não autorizada.  
+> **Cibersegurança** é a aplicação desses princípios ao contexto digital, protegendo sistemas, redes, dispositivos, aplicações e dados.
+
+---
+
+## Tríade CIA: Confidencialidade, Integridade e Disponibilidade
+
+A segurança da informação assenta em três princípios fundamentais: **Confidencialidade**, **Integridade** e **Disponibilidade**. Estes três princípios são frequentemente conhecidos como **tríade CIA**, devido aos termos em inglês *Confidentiality*, *Integrity* e *Availability*.
+
+Esta tríade permite compreender os principais objetivos da proteção da informação. Sempre que se analisa um sistema, uma aplicação, uma rede ou um incidente, é possível avaliar de que forma estes três princípios podem ser afetados.
+
+---
+
+### Confidencialidade
+
+A confidencialidade procura garantir que a informação apenas é acedida por pessoas, sistemas ou entidades autorizadas.
+
+Este princípio está relacionado com a proteção contra acessos indevidos, exposição de dados, roubo de informação e divulgação não autorizada. Para garantir a confidencialidade, podem ser utilizadas medidas como palavras-passe fortes, autenticação de dois fatores, permissões de acesso, encriptação e políticas de segurança.
+
+Um exemplo simples de quebra de confidencialidade ocorre quando uma pessoa acede a dados pessoais, documentos internos ou credenciais sem ter autorização para isso.
+
+> **Nota:**  
+> **Acesso autorizado** significa que uma pessoa ou sistema tem permissão legítima para consultar ou utilizar determinada informação.  
+> **Dados sensíveis** são informações que exigem proteção especial, como dados pessoais, dados bancários, credenciais, documentos internos ou informação confidencial de uma organização.
+
+---
+
+### Integridade
+
+A integridade procura garantir que a informação se mantém correta, completa e sem alterações indevidas.
+
+Este princípio é importante porque os dados devem ser fiáveis. Mesmo que a informação esteja disponível e protegida contra acessos indevidos, deixa de ter valor se tiver sido alterada sem autorização, corrompida ou manipulada.
+
+A integridade pode ser protegida através de controlos de acesso, registos de alterações, validação de dados, cópias de segurança, assinaturas digitais e mecanismos que permitam detetar modificações não autorizadas.
+
+Um exemplo de quebra de integridade ocorre quando alguém altera o valor de uma transação, modifica um registo numa base de dados ou altera um ficheiro sem permissão.
+
+> **Nota:**  
+> **Corromper dados** significa tornar a informação incorreta, danificada ou inutilizável.  
+> **Assinatura digital** é um mecanismo que permite verificar a autenticidade e a integridade de um documento ou mensagem.
+
+---
+
+### Disponibilidade
+
+A disponibilidade procura garantir que sistemas, serviços e informação estão acessíveis quando são necessários.
+
+Este princípio está relacionado com continuidade de serviço, estabilidade, capacidade de resposta e recuperação em caso de falha. Um sistema seguro não deve apenas proteger dados; deve também permitir que utilizadores legítimos consigam aceder aos serviços de que necessitam.
+
+A disponibilidade pode ser afetada por falhas técnicas, avarias, ataques, erros humanos, cortes de energia, problemas de rede ou ausência de manutenção.
+
+Medidas como cópias de segurança, redundância, monitorização, atualizações, planos de recuperação e proteção contra ataques de negação de serviço ajudam a garantir maior disponibilidade.
+
+Um exemplo de quebra de disponibilidade ocorre quando um site, aplicação ou servidor deixa de estar acessível aos utilizadores legítimos.
+
+> **Nota:**  
+> **Redundância** significa ter recursos alternativos preparados para substituir outros em caso de falha.  
+> **Ataque de negação de serviço**, também conhecido como DoS ou DDoS, procura tornar um serviço indisponível, sobrecarregando-o ou impedindo o seu funcionamento normal.
+
+---
+
+## Relação entre os três princípios
+
+A confidencialidade, a integridade e a disponibilidade estão interligadas. Um incidente de segurança pode afetar apenas um destes princípios, mas também pode comprometer vários ao mesmo tempo.
+
+Por exemplo, um ataque de ransomware pode afetar:
+
+- a **confidencialidade**, se os dados forem roubados;
+- a **integridade**, se os ficheiros forem alterados ou cifrados;
+- a **disponibilidade**, se os utilizadores deixarem de conseguir aceder aos sistemas.
+
+Da mesma forma, uma má configuração de permissões pode permitir que utilizadores sem autorização consultem, alterem ou apaguem informação. Nesse caso, os três princípios podem ficar em risco.
+
+Compreender esta relação é essencial para analisar incidentes, avaliar riscos e escolher medidas de proteção adequadas.
+
+---
+
+## Conceitos complementares: autenticidade, rastreabilidade e não repúdio
+
+Além da confidencialidade, integridade e disponibilidade, existem outros conceitos importantes para compreender a segurança da informação.
+
+A **autenticidade** está relacionada com a capacidade de confirmar se uma pessoa, sistema, documento ou mensagem é realmente aquilo que afirma ser. Este conceito é importante, por exemplo, na validação de identidades, certificados digitais, assinaturas digitais e comunicações seguras.
+
+A **rastreabilidade** permite acompanhar ações realizadas num sistema. Registos de atividade, logs e auditorias ajudam a perceber quem fez determinada ação, quando a fez e em que contexto ocorreu.
+
+O **não repúdio** procura impedir que uma pessoa negue uma ação que realizou, como o envio de uma mensagem, a assinatura de um documento ou a aprovação de uma operação.
+
+Estes conceitos são especialmente úteis em contextos onde é necessário provar ações, preservar evidências, analisar incidentes ou garantir responsabilidade sobre decisões e acessos.
+
+> **Nota:**  
+> **Autenticidade** está relacionada com a verificação da identidade ou origem de algo.  
+> **Rastreabilidade** é a capacidade de acompanhar e reconstruir ações realizadas num sistema.  
+> **Não repúdio** significa impedir que uma ação realizada possa ser negada posteriormente sem fundamento.
+
+---
+
+## Ameaça, Vulnerabilidade e Risco
+
+Para compreender a segurança da informação, é também necessário distinguir três conceitos fundamentais: **ameaça**, **vulnerabilidade** e **risco**.
+
+Estes conceitos estão relacionados, mas não significam a mesma coisa. A sua distinção permite analisar melhor os problemas de segurança e perceber por que razão determinada situação pode representar perigo para um sistema ou organização.
+
+---
+
+### Ameaça
+
+Uma ameaça é qualquer evento, ação, pessoa, grupo, falha ou circunstância com potencial para causar dano.
+
+As ameaças podem ser intencionais ou acidentais. Podem surgir de atacantes externos, utilizadores internos, malware, falhas técnicas, erros humanos, fenómenos naturais ou problemas físicos.
+
+Exemplos de ameaças incluem:
+
+- phishing;
+- malware;
+- ransomware;
+- roubo de credenciais;
+- ataques de força bruta;
+- falhas de energia;
+- erro humano;
+- roubo ou perda de equipamento;
+- acesso indevido por utilizadores internos.
+
+Uma ameaça, por si só, representa uma possibilidade de dano. Para causar impacto, normalmente precisa de explorar uma vulnerabilidade.
+
+> **Nota:**  
+> **Atacante** é uma pessoa ou grupo que tenta comprometer um sistema, roubar informação, causar dano ou obter acesso não autorizado.  
+> **Erro humano** é uma ação involuntária que pode causar problemas de segurança, como apagar ficheiros, clicar num link fraudulento ou configurar mal um sistema.
+
+---
+
+### Vulnerabilidade
+
+Uma vulnerabilidade é uma fraqueza, falha ou deficiência que pode ser explorada por uma ameaça.
+
+As vulnerabilidades podem existir em software, hardware, redes, configurações, processos ou comportamentos humanos.
+
+Exemplos de vulnerabilidades incluem:
+
+- palavra-passe fraca;
+- sistema desatualizado;
+- aplicação com falhas de segurança;
+- permissões mal configuradas;
+- ausência de autenticação de dois fatores;
+- falta de cópias de segurança;
+- serviços expostos à Internet sem proteção adequada;
+- utilizadores sem formação suficiente.
+
+Uma vulnerabilidade não significa necessariamente que já ocorreu um incidente. Significa que existe uma fragilidade que pode ser explorada.
+
+> **Nota:**  
+> **Explorar uma vulnerabilidade** significa aproveitar uma falha para obter acesso, causar dano, alterar informação ou comprometer um sistema.  
+> **Configuração insegura** ocorre quando um sistema, aplicação ou serviço está definido de forma incorreta ou demasiado permissiva.
+
+---
+
+### Risco
+
+O risco resulta da combinação entre uma ameaça, uma vulnerabilidade e o impacto que poderá ocorrer caso essa vulnerabilidade seja explorada.
+
+De forma simples, o risco representa a possibilidade de algo correr mal e causar consequências negativas.
+
+Por exemplo, se uma aplicação estiver desatualizada e acessível através da Internet, existe o risco de um atacante explorar uma falha conhecida para comprometer o sistema.
+
+O risco pode ser maior ou menor consoante a probabilidade de ocorrência e o impacto esperado. Uma vulnerabilidade num sistema pouco importante pode representar um risco reduzido. Já uma vulnerabilidade num sistema crítico, exposto publicamente e com dados sensíveis, pode representar um risco elevado.
+
+> **Nota:**  
+> **Probabilidade** é a possibilidade de um evento acontecer.  
+> **Impacto** é a gravidade das consequências caso esse evento aconteça.  
+> **Sistema crítico** é um sistema essencial para o funcionamento de uma pessoa, organização ou serviço.
+
+---
+
+### Exemplo prático
+
+Um exemplo simples ajuda a compreender a relação entre estes conceitos:
+
+> **Situação:** uma conta de email utiliza uma palavra-passe fraca e não tem autenticação de dois fatores.  
+> **Ameaça:** um atacante tenta adivinhar ou obter a palavra-passe.  
+> **Vulnerabilidade:** a palavra-passe é fraca e a conta não tem uma segunda camada de autenticação.  
+> **Risco:** a conta pode ser comprometida.  
+> **Impacto:** o atacante pode aceder a mensagens, redefinir palavras-passe de outros serviços, roubar informação ou enviar emails fraudulentos em nome da vítima.
+
+Este exemplo mostra que a segurança não depende apenas de uma medida isolada. Uma palavra-passe forte reduz o risco, mas a autenticação de dois fatores acrescenta uma proteção adicional caso a palavra-passe seja descoberta.
+
+---
+
+## Ativos e Superfície de Ataque
+
+Em segurança da informação, um dos primeiros passos para proteger um sistema é compreender quais são os seus **ativos**.
+
+Um ativo é qualquer elemento que tenha valor para uma pessoa, organização ou sistema. Pode ser informação, equipamento, software, serviço, conta, credencial, base de dados ou até conhecimento interno.
+
+De forma simples, um ativo é tudo aquilo que deve ser protegido porque a sua perda, alteração, exposição ou indisponibilidade pode causar impacto negativo.
+
+Exemplos de ativos incluem:
+
+- computadores;
+- servidores;
+- telemóveis;
+- contas de email;
+- palavras-passe;
+- bases de dados;
+- documentos internos;
+- aplicações web;
+- redes informáticas;
+- cópias de segurança;
+- informação pessoal ou profissional;
+- sistemas de autenticação;
+- serviços disponíveis através da Internet.
+
+Nem todos os ativos têm o mesmo nível de importância. Uma base de dados com informação sensível, por exemplo, exige um nível de proteção superior ao de um ficheiro público sem valor crítico.
+
+> **Nota:**  
+> Um **ativo** é qualquer recurso que tenha valor e que, por isso, deve ser protegido.  
+> Um **ativo crítico** é um recurso essencial para o funcionamento de um serviço, sistema ou organização.
+
+---
+
+### Superfície de Ataque
+
+A superfície de ataque corresponde ao conjunto de pontos através dos quais um atacante pode tentar aceder, explorar, interferir ou comprometer um sistema.
+
+Quanto maior for a superfície de ataque, maior tende a ser a quantidade de oportunidades para um ataque ocorrer. Por esse motivo, uma das preocupações da cibersegurança é reduzir a exposição desnecessária de sistemas, serviços e informação.
+
+Exemplos de elementos que podem fazer parte da superfície de ataque incluem:
+
+- portas de rede abertas;
+- serviços expostos à Internet;
+- aplicações web;
+- formulários de login;
+- contas de utilizador;
+- palavras-passe fracas;
+- sistemas desatualizados;
+- permissões excessivas;
+- dispositivos ligados à rede;
+- APIs;
+- emails e anexos;
+- redes Wi-Fi;
+- acessos remotos;
+- equipamentos sem proteção física adequada.
+
+A superfície de ataque não existe apenas ao nível técnico. Também pode envolver fatores humanos e organizacionais, como falta de formação, procedimentos inseguros, partilha indevida de credenciais ou ausência de políticas claras.
+
+> **Nota:**  
+> Uma **porta de rede** é um ponto lógico de comunicação usado por serviços e aplicações.  
+> Uma **API** é uma forma de comunicação entre aplicações ou sistemas.  
+> Um **acesso remoto** permite aceder a um sistema à distância, por exemplo através de VPN, SSH ou ambiente de trabalho remoto.
+
+---
+
+### Redução da Superfície de Ataque
+
+Reduzir a superfície de ataque significa diminuir o número de pontos que podem ser explorados por um atacante.
+
+Esta redução pode ser feita através de várias medidas, como:
+
+- desativar serviços que não são necessários;
+- fechar portas de rede não utilizadas;
+- remover contas antigas ou sem utilização;
+- aplicar atualizações de segurança;
+- limitar permissões dos utilizadores;
+- proteger acessos remotos;
+- utilizar autenticação de dois fatores;
+- configurar corretamente firewalls;
+- evitar exposição direta de sistemas sensíveis à Internet;
+- rever regularmente configurações e acessos.
+
+O objetivo não é tornar o sistema impossível de atacar, mas reduzir as oportunidades disponíveis para um atacante e dificultar a exploração de falhas.
+
+Por exemplo, se um servidor tiver vários serviços ativos que não são necessários, cada um deles pode representar uma possível porta de entrada. Ao desativar esses serviços, reduz-se a exposição do sistema.
+
+---
+
+### Exemplo prático
+
+> **Situação:** uma empresa tem um servidor ligado à Internet com vários serviços ativos.  
+> **Ativos:** servidor, aplicação web, base de dados e contas de utilizador.  
+> **Superfície de ataque:** página de login, portas abertas, serviço de acesso remoto, aplicação web e contas existentes.  
+> **Problema:** alguns serviços estão ativos sem necessidade e o acesso remoto não tem autenticação de dois fatores.  
+> **Medidas possíveis:** desativar serviços desnecessários, fechar portas não utilizadas, ativar autenticação de dois fatores, atualizar o servidor e rever permissões.
+
+Este exemplo mostra que conhecer os ativos e a superfície de ataque ajuda a perceber onde estão os pontos mais sensíveis e que medidas devem ser aplicadas para reduzir o risco.
+
+---
+
+## Impacto e Probabilidade
+
+Depois de identificar ativos, ameaças, vulnerabilidades e superfície de ataque, é necessário compreender dois elementos essenciais na análise de risco: **impacto** e **probabilidade**.
+
+A **probabilidade** representa a possibilidade de um incidente acontecer. O **impacto** representa a gravidade das consequências caso esse incidente ocorra.
+
+Um risco é geralmente mais elevado quando existe uma probabilidade significativa de ocorrência e um impacto grave.
+
+Por exemplo, uma vulnerabilidade num sistema público, desatualizado e com dados sensíveis pode representar um risco elevado, porque existe maior possibilidade de exploração e consequências potencialmente graves.
+
+Por outro lado, uma falha num sistema isolado, sem dados importantes e sem ligação à Internet pode representar um risco menor, embora não deva ser ignorada.
+
+> **Nota:**  
+> **Probabilidade** é a possibilidade de um evento acontecer.  
+> **Impacto** é a gravidade das consequências caso esse evento aconteça.  
+> **Análise de risco** é o processo de identificar, avaliar e compreender riscos para decidir que medidas devem ser aplicadas.
+
+---
+
+### Exemplo prático
+
+> **Situação:** uma aplicação web contém dados pessoais e está acessível através da Internet.  
+> **Vulnerabilidade:** a aplicação está desatualizada.  
+> **Ameaça:** um atacante pode explorar uma falha conhecida.  
+> **Probabilidade:** média ou alta, porque o sistema está exposto publicamente.  
+> **Impacto:** elevado, porque pode existir exposição de dados pessoais.  
+> **Risco:** elevado.
+
+Neste caso, a prioridade deve ser corrigir a vulnerabilidade, atualizar a aplicação e aplicar medidas adicionais de proteção, como controlo de acessos, monitorização e cópias de segurança.
+
+---
+
+## Criticidade e Priorização
+
+Depois de avaliar o impacto e a probabilidade, é necessário decidir quais os problemas que devem ser tratados primeiro.
+
+Nem todos os riscos têm a mesma urgência. Alguns podem afetar sistemas críticos, expor dados sensíveis ou interromper serviços essenciais. Outros podem ter impacto reduzido ou estar associados a sistemas menos importantes.
+
+A priorização permite organizar a resposta, concentrando primeiro os recursos nos riscos mais graves. Para isso, é comum considerar fatores como:
+
+- impacto esperado;
+- urgência da correção;
+- exposição do sistema;
+- existência de dados sensíveis;
+- facilidade de exploração;
+- importância do ativo afetado;
+- possibilidade de propagação do incidente.
+
+Um problema que afeta um sistema crítico e exposto à Internet deve, em regra, ter prioridade superior a uma falha num sistema isolado e sem dados relevantes.
+
+> **Nota:**  
+> **Criticidade** é o grau de importância de um sistema, ativo ou incidente.  
+> **Priorização** é o processo de ordenar problemas ou ações de acordo com a sua gravidade, urgência e impacto.
+
+---
+
+## Defesa em Profundidade
+
+A defesa em profundidade é uma abordagem de segurança baseada na utilização de várias camadas de proteção.
+
+A ideia principal é não depender de uma única medida de segurança. Se uma camada falhar, devem existir outras capazes de dificultar o ataque, reduzir o impacto ou permitir uma resposta mais rápida.
+
+Por exemplo, uma palavra-passe forte é importante, mas pode não ser suficiente. Se essa palavra-passe for descoberta, a autenticação de dois fatores pode impedir o acesso indevido. Da mesma forma, um antivírus pode ajudar a detetar malware, mas não substitui atualizações, backups, controlo de acessos ou monitorização.
+
+A defesa em profundidade procura combinar diferentes medidas de proteção, como:
+
+- palavras-passe fortes;
+- autenticação de dois fatores;
+- atualizações de segurança;
+- antivírus ou antimalware;
+- firewall;
+- controlo de acessos;
+- permissões adequadas;
+- cópias de segurança;
+- encriptação;
+- monitorização de logs;
+- formação dos utilizadores;
+- planos de resposta a incidentes.
+
+Esta abordagem é importante porque nenhum sistema é totalmente invulnerável. As falhas podem surgir em diferentes pontos: no software, na configuração, nos utilizadores, na rede ou nos processos internos.
+
+Quanto mais bem organizadas estiverem as camadas de defesa, maior será a capacidade de prevenir, detetar, conter e recuperar de um incidente.
+
+> **Nota:**  
+> **Defesa em profundidade** significa aplicar várias camadas de segurança em vez de depender de uma única proteção.  
+> **Firewall** é um mecanismo que controla o tráfego de rede, permitindo ou bloqueando comunicações com base em regras definidas.  
+> **Logs** são registos de eventos gerados por sistemas, aplicações ou dispositivos. Podem mostrar acessos, erros, alterações, tentativas de login e outras atividades relevantes.
+
+---
+
+### Exemplo prático
+
+> **Situação:** uma empresa utiliza uma aplicação web para gerir dados de clientes.  
+> **Camadas de defesa:** palavra-passe forte, autenticação de dois fatores, firewall, atualizações regulares, permissões limitadas, cópias de segurança e monitorização de logs.  
+> **Problema:** um atacante consegue descobrir a palavra-passe de um utilizador.  
+> **Resultado:** a autenticação de dois fatores pode impedir o acesso. Mesmo que o acesso ocorra, permissões limitadas reduzem o impacto, os logs ajudam a detetar atividade suspeita e os backups podem apoiar a recuperação caso exista perda de dados.
+
+Este exemplo mostra que a segurança é mais eficaz quando várias medidas trabalham em conjunto. Uma camada pode falhar, mas as restantes ajudam a limitar o dano.
+
+---
+
+## Princípio do Menor Privilégio
+
+O princípio do menor privilégio estabelece que cada utilizador, conta, aplicação ou sistema deve ter apenas os acessos necessários para realizar a sua função.
+
+Isto significa que não se deve conceder mais permissões do que aquelas que são realmente necessárias. Quanto maiores forem os privilégios de uma conta, maior poderá ser o impacto caso essa conta seja comprometida.
+
+Por exemplo, um utilizador que apenas precisa de consultar documentos não deve ter permissões para apagar ficheiros, alterar configurações ou criar novas contas. Da mesma forma, uma aplicação que só precisa de ler dados não deve ter permissão para modificar ou eliminar informação.
+
+Este princípio ajuda a reduzir o risco, porque limita o que pode ser feito em caso de erro, abuso ou ataque.
+
+Aplicar o menor privilégio envolve medidas como:
+
+- criar contas individuais para cada utilizador;
+- evitar a utilização diária de contas de administrador;
+- conceder permissões apenas quando são necessárias;
+- rever acessos regularmente;
+- remover contas antigas ou sem utilização;
+- limitar permissões de aplicações e serviços;
+- separar funções administrativas de funções comuns;
+- registar e monitorizar ações sensíveis.
+
+> **Nota:**  
+> **Privilégio** é uma permissão especial atribuída a uma conta, utilizador, aplicação ou sistema.  
+> **Conta de administrador** é uma conta com permissões elevadas, capaz de alterar configurações, instalar software, gerir utilizadores ou modificar partes importantes do sistema.  
+> **Permissões** são regras que definem o que uma pessoa, conta ou aplicação pode fazer, como ler, alterar, apagar ou executar ficheiros.
+
+---
+
+### Exemplo prático
+
+> **Situação:** numa empresa, todos os utilizadores têm permissões de administrador nos seus computadores.  
+> **Problema:** se um utilizador abrir um ficheiro malicioso, o malware poderá executar ações com privilégios elevados.  
+> **Risco:** o impacto do ataque pode ser maior, porque o malware poderá instalar programas, alterar configurações ou aceder a áreas protegidas do sistema.  
+> **Medida correta:** remover permissões de administrador das contas comuns e criar contas administrativas separadas apenas para tarefas específicas.
+
+Este exemplo mostra que limitar privilégios não serve apenas para controlar utilizadores. Serve também para reduzir o impacto de erros, falhas e ataques.
+
+---
+
+## Controlos de Segurança
+
+Os controlos de segurança são medidas utilizadas para reduzir riscos, proteger sistemas e responder a incidentes.
+
+Podem ser técnicos, organizacionais ou físicos. Um controlo técnico pode ser uma firewall ou um antivírus. Um controlo organizacional pode ser uma política de palavras-passe ou um procedimento de resposta a incidentes. Um controlo físico pode ser uma fechadura, um cartão de acesso ou uma câmara de vigilância.
+
+De forma geral, os controlos de segurança podem ser divididos em três tipos principais:
+
+- controlos preventivos;
+- controlos detetivos;
+- controlos corretivos.
+
+Cada tipo de controlo atua numa fase diferente: antes, durante ou depois de um incidente.
+
+> **Nota:**  
+> **Controlo de segurança** é qualquer medida aplicada para reduzir riscos, proteger informação ou limitar o impacto de um incidente.
+
+---
+
+### Controlos preventivos
+
+Os controlos preventivos têm como objetivo evitar que um incidente aconteça.
+
+São medidas aplicadas antes do problema ocorrer, procurando reduzir a probabilidade de ataque, erro ou acesso indevido.
+
+Exemplos de controlos preventivos incluem:
+
+- palavras-passe fortes;
+- autenticação de dois fatores;
+- firewall;
+- atualizações de segurança;
+- encriptação;
+- controlo de acessos;
+- formação dos utilizadores;
+- políticas de segurança;
+- segmentação de rede;
+- bloqueio automático de ecrã.
+
+Um exemplo simples é a autenticação de dois fatores. Mesmo que uma palavra-passe seja descoberta, esta medida pode impedir o acesso indevido à conta.
+
+---
+
+### Controlos detetivos
+
+Os controlos detetivos têm como objetivo identificar atividades suspeitas, falhas ou incidentes.
+
+São medidas utilizadas para perceber se algo está a acontecer ou se já aconteceu. Não impedem necessariamente o problema, mas ajudam a detetá-lo rapidamente.
+
+Exemplos de controlos detetivos incluem:
+
+- análise de logs;
+- sistemas de deteção de intrusões;
+- alertas de segurança;
+- monitorização de rede;
+- auditorias;
+- deteção de alterações em ficheiros;
+- relatórios de atividade;
+- revisão de acessos.
+
+Um exemplo é a monitorização de tentativas de login falhadas. Várias tentativas seguidas podem indicar um ataque de força bruta ou uma tentativa de acesso indevido.
+
+> **Nota:**  
+> Um **IDS** é um sistema de deteção de intrusões. A sua função é identificar comportamentos suspeitos ou atividades potencialmente maliciosas.  
+> **Auditoria** é uma análise realizada para verificar se sistemas, processos ou acessos estão de acordo com regras, políticas ou boas práticas.
+
+---
+
+### Controlos corretivos
+
+Os controlos corretivos têm como objetivo reduzir o impacto de um incidente e apoiar a recuperação.
+
+São aplicados depois de uma falha, ataque ou problema ter ocorrido. Servem para corrigir a situação, restaurar sistemas, recuperar dados e evitar que o mesmo problema se repita.
+
+Exemplos de controlos corretivos incluem:
+
+- restauração de backups;
+- remoção de malware;
+- alteração de palavras-passe comprometidas;
+- correção de vulnerabilidades;
+- reinstalação de sistemas;
+- aplicação de patches;
+- isolamento de equipamentos afetados;
+- revisão de permissões;
+- melhoria de procedimentos.
+
+Um exemplo é a recuperação de ficheiros através de uma cópia de segurança depois de um ataque de ransomware.
+
+> **Nota:**  
+> **Patch** é uma atualização ou correção aplicada a um software para resolver falhas, incluindo falhas de segurança.  
+> **Isolamento** significa separar um equipamento ou sistema da rede para impedir que o problema se espalhe.
+
+---
+
+### Exemplo prático
+
+> **Situação:** um utilizador recebe um email de phishing com um anexo malicioso.  
+> **Controlo preventivo:** formação do utilizador, filtro de email e antivírus.  
+> **Controlo detetivo:** alerta do antivírus, registo em logs e monitorização de atividade suspeita.  
+> **Controlo corretivo:** remoção do malware, alteração de palavras-passe, análise do incidente e recuperação de ficheiros através de backup, se necessário.
+
+Este exemplo mostra que os controlos de segurança não atuam todos da mesma forma. Alguns procuram impedir o incidente, outros ajudam a detetá-lo e outros permitem recuperar depois do problema.
+
+---
+
+## Síntese final
+
+Os conceitos fundamentais de segurança da informação constituem a base para compreender a lógica da proteção digital.
+
+Ao longo desta secção foram abordados princípios essenciais, como a confidencialidade, a integridade e a disponibilidade, que ajudam a definir os principais objetivos da segurança. Também foram explorados conceitos como ameaça, vulnerabilidade, risco, ativo, superfície de ataque, impacto e probabilidade, fundamentais para analisar situações de perigo e compreender as possíveis consequências de um incidente.
+
+Além disso, foram apresentados princípios e medidas que ajudam a organizar a proteção, como a defesa em profundidade, o princípio do menor privilégio e os controlos preventivos, detetivos e corretivos.
+
+Em conjunto, estes conceitos permitem compreender que a cibersegurança não depende de uma única ferramenta ou medida isolada. Pelo contrário, exige análise, planeamento, boas práticas, controlo de acessos, monitorização e capacidade de resposta.
+
+Esta base conceptual será importante para compreender os temas seguintes, onde a segurança passa a ser analisada em contextos mais específicos, como a legislação, a privacidade, as redes, as vulnerabilidades, a deteção de intrusões e a resposta a incidentes.
