@@ -244,6 +244,238 @@ A segurança não depende apenas de especialistas. Depende também da forma como
 
 ---
 
+## Exemplos práticos e recursos explorados
+
+Para complementar os fundamentos de cibersegurança, foram exploradas algumas práticas, ferramentas e situações reais que ajudaram a aplicar os conceitos estudados.
+
+Alguns fundamentos podem ser observados e aplicados em ações simples do dia a dia: criar palavras-passe seguras, proteger contas, verificar emails, analisar links e ficheiros, confirmar a segurança de sites, realizar cópias de segurança e proteger dispositivos.
+
+---
+
+### Criação e avaliação de palavras-passe
+
+Foram analisadas diferenças entre palavras-passe fracas, previsíveis e robustas. Também foi possível perceber que uma palavra-passe segura deve ser longa, única e difícil de adivinhar.
+
+Exemplos de recursos e práticas úteis:
+
+- geradores de palavras-passe;
+- verificadores de força de palavra-passe;
+- gestores de palavras-passe;
+- comparação entre palavras-passe simples e palavras-passe mais robustas.
+
+A utilização de geradores de palavras-passe permite criar combinações mais fortes, evitando padrões comuns como nomes, datas de nascimento, sequências numéricas ou palavras fáceis de adivinhar.
+
+Os verificadores de força ajudam a perceber porque determinadas palavras-passe são inseguras e como pequenas alterações podem aumentar a sua robustez.
+
+Os gestores de palavras-passe, como Bitwarden, 1Password, Dashlane ou LastPass, ajudam a guardar credenciais de forma organizada e a evitar a reutilização da mesma palavra-passe em vários serviços.
+
+> **Exemplo aplicado:**  
+> Comparar uma palavra-passe simples, baseada num nome ou data, com uma palavra-passe longa e aleatória permite perceber como o comprimento, a variedade de caracteres e a imprevisibilidade aumentam a segurança.
+
+---
+
+### Proteção de contas com autenticação de dois fatores
+
+A autenticação de dois fatores foi explorada como uma medida simples, mas muito importante, para reforçar a proteção de contas.
+
+Na prática, este conceito mostra que a palavra-passe não deve ser a única barreira de segurança. Mesmo que seja descoberta, o segundo fator pode impedir o acesso indevido.
+
+Exemplos de segundo fator:
+
+- aplicação autenticadora;
+- código temporário;
+- confirmação no telemóvel;
+- chave física de segurança;
+- SMS, embora seja menos recomendado do que aplicações autenticadoras.
+
+> **Exemplo aplicado:**  
+> Uma conta de email com palavra-passe forte fica mais protegida quando também tem autenticação de dois fatores. Caso a palavra-passe seja descoberta, o atacante continua a precisar da segunda confirmação para conseguir entrar.
+
+---
+
+### Verificação de exposição de emails e contas
+
+Foram explorados recursos que ajudam a perceber se um email pode estar exposto publicamente, associado a fugas de dados ou ligado a determinados domínios.
+
+Recursos explorados:
+
+- Have I Been Pwned;
+- ZeroBounce;
+- VerifyEmailAddress;
+- Hunter.io.
+
+O **Have I Been Pwned** permite verificar se um endereço de email aparece em fugas de dados conhecidas. Esta análise ajuda a perceber se pode ser necessário alterar palavras-passe, deixar de reutilizar credenciais antigas e ativar autenticação de dois fatores.
+
+O **ZeroBounce** e o **VerifyEmailAddress** permitem validar endereços de email, ajudando a perceber se um contacto aparenta ser válido.
+
+O **Hunter.io** permite identificar emails associados a domínios, mostrando como determinada informação de contacto pode estar disponível publicamente.
+
+> **Exemplo aplicado:**  
+> Se um email aparece numa fuga de dados, a medida correta não é apenas alterar a palavra-passe dessa conta. Também é importante verificar se a mesma palavra-passe foi usada noutros serviços.
+
+---
+
+### Análise de links, ficheiros e hashes
+
+A análise de links e ficheiros suspeitos foi outro exemplo prático ligado aos fundamentos de cibersegurança.
+
+Recurso explorado:
+
+- VirusTotal.
+
+O **VirusTotal** permite analisar links, ficheiros, domínios, endereços IP e hashes. Esta prática é útil quando existe dúvida sobre a segurança de um ficheiro recebido por email, de um link desconhecido ou de um domínio suspeito.
+
+A utilização de hashes também permite identificar ficheiros sem depender apenas do seu nome. Isto é importante porque um ficheiro malicioso pode ter um nome aparentemente normal.
+
+> **Exemplo aplicado:**  
+> Antes de abrir um anexo inesperado, pode analisar-se o ficheiro, o link ou o hash no VirusTotal. Esta verificação não garante segurança absoluta, mas ajuda a tomar uma decisão mais informada.
+
+---
+
+### Emails suspeitos, phishing e engenharia social
+
+Foram analisadas situações em que o ataque não depende apenas de uma falha técnica, mas da tentativa de enganar o utilizador.
+
+Exemplos de sinais de alerta:
+
+- mensagens com urgência exagerada;
+- pedidos inesperados de dados pessoais;
+- links encurtados ou estranhos;
+- erros no domínio do remetente;
+- anexos inesperados;
+- promessas de prémios;
+- ameaças de bloqueio de conta;
+- pedidos de palavras-passe ou códigos de autenticação.
+
+Nestes casos, a boa prática é verificar o remetente, confirmar o endereço real dos links, desconfiar de pedidos inesperados e não partilhar códigos ou palavras-passe por email, SMS ou mensagens.
+
+> **Exemplo aplicado:**  
+> Um email que informa que uma conta será bloqueada e exige início de sessão através de um link deve ser analisado com cuidado. O mais seguro é não clicar diretamente no link e aceder ao serviço através do endereço oficial.
+
+---
+
+### Navegação segura, HTTPS e certificados digitais
+
+Foi também explorada a importância de confirmar se sites sensíveis utilizam HTTPS, especialmente quando envolvem dados pessoais, contas, banca online ou plataformas de trabalho.
+
+O cadeado no navegador indica que a comunicação está protegida por encriptação, mas não prova, por si só, que o site é legítimo. Por isso, também é necessário confirmar o domínio e o contexto em que o link foi recebido.
+
+Tecnologias e ferramentas associadas:
+
+- HTTPS;
+- SSL/TLS;
+- certificados digitais;
+- Autoridade de Certificação;
+- XAMPP;
+- Apache;
+- OpenSSL.
+
+No ambiente local, a utilização de XAMPP, Apache e OpenSSL permitiu compreender melhor a configuração de um servidor web e a utilização de certificados digitais para estabelecer ligações seguras.
+
+> **Exemplo aplicado:**  
+> Configurar HTTPS num servidor local ajuda a perceber, de forma prática, como um certificado digital permite criar uma ligação cifrada entre o navegador e o servidor.
+
+---
+
+### Redes Wi-Fi públicas e utilização de VPN
+
+Outro ponto prático esteve relacionado com a utilização de redes Wi-Fi públicas.
+
+Redes em cafés, hotéis, transportes ou centros comerciais podem representar maior risco, principalmente quando são usadas para aceder a contas importantes, serviços bancários ou informação sensível.
+
+Boas práticas observadas:
+
+- evitar operações sensíveis em redes públicas;
+- confirmar se os sites utilizam HTTPS;
+- utilizar VPN quando necessário;
+- desativar ligação automática a redes desconhecidas;
+- evitar partilha de ficheiros em redes públicas.
+
+> **Exemplo aplicado:**  
+> Ao utilizar uma rede Wi-Fi pública, não é recomendável aceder a serviços bancários ou contas críticas sem proteção adicional. Quando o acesso for necessário, uma VPN pode acrescentar uma camada de proteção.
+
+---
+
+### Atualizações, antivírus e instalação de software
+
+A manutenção dos sistemas atualizados foi analisada como uma prática essencial para reduzir riscos.
+
+As atualizações corrigem falhas conhecidas e ajudam a evitar que vulnerabilidades já identificadas sejam exploradas.
+
+Boas práticas observadas:
+
+- manter o sistema operativo atualizado;
+- atualizar aplicações e navegadores;
+- ativar atualizações automáticas sempre que possível;
+- utilizar antivírus ou antimalware ativo e atualizado;
+- instalar software apenas de fontes fidedignas;
+- remover aplicações que já não são utilizadas.
+
+> **Exemplo aplicado:**  
+> Um computador com software desatualizado pode ficar exposto a falhas conhecidas. A aplicação regular de atualizações reduz essa exposição e melhora a proteção geral do sistema.
+
+---
+
+### Cópias de segurança e recuperação
+
+As cópias de segurança foram trabalhadas como uma das medidas mais importantes para reduzir o impacto de perda de dados, avarias ou ransomware.
+
+Boas práticas observadas:
+
+- realizar backups regulares;
+- guardar cópias em local seguro;
+- manter pelo menos uma cópia offline;
+- guardar uma cópia num local físico diferente, quando possível;
+- testar se os dados podem ser recuperados.
+
+> **Exemplo aplicado:**  
+> Se um computador for afetado por ransomware e os ficheiros ficarem cifrados, uma cópia de segurança recente, protegida e separada do sistema principal pode permitir recuperar a informação sem depender do atacante.
+
+---
+
+### Proteção física dos dispositivos
+
+A proteção física dos dispositivos também foi considerada uma medida básica de cibersegurança.
+
+Computadores, telemóveis, discos externos e pens USB podem conter informação sensível ou permitir acesso direto a contas e sistemas.
+
+Boas práticas observadas:
+
+- bloquear o ecrã quando o equipamento não está a ser utilizado;
+- usar PIN, palavra-passe ou biometria;
+- não deixar dispositivos desbloqueados e sem vigilância;
+- ativar encriptação do disco quando disponível;
+- proteger discos externos e pens USB;
+- não deixar sessões abertas em computadores partilhados.
+
+> **Exemplo aplicado:**  
+> Um computador desbloqueado numa sala partilhada pode permitir acesso a ficheiros, contas abertas ou configurações do sistema. Bloquear o ecrã reduz esse risco de forma simples.
+
+---
+
+### Atenção contínua e partilha de boas práticas
+
+A formação contínua foi também considerada essencial, porque as ameaças digitais mudam com frequência.
+
+Foram identificados exemplos de riscos atuais, como phishing, burlas associadas a pagamentos digitais, falsos suportes técnicos, roubo de contas e esquemas relacionados com bancos ou criptomoedas.
+
+Um ponto importante foi perceber que a cibersegurança também passa por partilhar boas práticas com outras pessoas, especialmente familiares, colegas ou utilizadores com menor literacia digital.
+
+> **Exemplo aplicado:**  
+> Explicar a outra pessoa como verificar um remetente, reconhecer um link suspeito ou ativar autenticação de dois fatores pode reduzir significativamente o risco de fraude ou roubo de conta.
+
+---
+
+### Relação com os fundamentos de cibersegurança
+
+Os exemplos explorados mostram que os fundamentos de cibersegurança não são apenas conceitos teóricos.
+
+A criação de palavras-passe fortes, a utilização de gestores de palavras-passe, a autenticação de dois fatores, a verificação de emails, a análise de links e ficheiros, a navegação segura, os backups, as atualizações e a proteção física dos dispositivos são práticas simples, mas importantes.
+
+Estas medidas não eliminam todos os riscos, mas reduzem a probabilidade de incidentes e ajudam a limitar o seu impacto.
+
+No conjunto, estes exemplos demonstram que a cibersegurança começa por hábitos consistentes, atenção ao detalhe e aplicação regular de boas práticas.
+
 ## Síntese
 
 Os fundamentos de cibersegurança mostram que a proteção digital começa por práticas simples, mas consistentes.
